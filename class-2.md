@@ -70,8 +70,10 @@ https://forgeandsmith.com/blog/ux-vs-ui-how-they-work-together-in-web-design/
 
 Read the article above and let it inform your user and wire frames. Make any changes that you think are needed. 
 
-
-
+## Figma 
 
 https://www.figma.com/wireframe-tool/?utm_source=google&utm_medium=cpc&utm_campaign=18674170714&utm_term=&utm_content=629977413028&gclid=Cj0KCQjwlPWgBhDHARIsAH2xdNfVdkN9hREeWD-4emX9A83ntmIBJodUrEopjfzRvef5Uqv5Z5WPUIcaAvMaEALw_wcB
 
+## Challenge
+
+See [class 1 for the the current challenge and rubric](./class-1.md)
