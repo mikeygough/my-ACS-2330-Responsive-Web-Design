@@ -26,23 +26,23 @@ Students by the end of the course will be able to ...
 |       | Week 2 - Media Queries |                              |
 |  3    | Tue, Apr  4 | [Media Queries] |
 |  4    | Thr, Apr  6 | [Introduction to Flexbox and responsive units] |
-|       | Week 3 - Flex Box and Grid |                           |
+|       | Week 3 - Flex Box and Grid |                          |
 |  5    | Tue, Apr 11 | [CSS Grid] - [Responsive Grid Challenge] |
 |  6    | Thr, Apr 13 |  |
-|       | Week 4 - Accessibility |                                         |
-|  7    | Tue, Apr 18 | [Accessibility and Inclusive Design] |
+|       | Week 4 - Accessibility |                              |
+|  7    | Tue, Apr 18 | [Accessibility and Inclusive Design]    |
 |  8    | Thr, Apr 20 |  |
-|       | Week 5 - Tailwind Responsive |                                         |
+|       | Week 5 - Tailwind Responsive |                        |
 |  9    | Tue, Apr 25 | [Tailwind responsive] |
 | 10    | Thr, Apr 25 | [Project 2] |
-|       | Week 6 - ??? |                                         |
+|       | Week 6 - ??? |                                        |
 | 11    | Tue, Feb 22 | [] |
 | 12    | Thr, Feb 27 | [] |
-|       | Week 7 - Final Assessment |                                         |
+|       | Week 7 - Final Assessment |                           |
 | 13    | Tue, May  2 | [] |
-| 14    | Thr, May  4 | Final Assessment |
+| 14    | Thr, May  4 | Final Assessment                        |
 |       | Week 8      |                                         |
-| 15    | Tue, May  9 | Final Presentations |
+| 15    | Tue, May  9 | Final Presentations                     |
 
 [Introduction to Responsive Web Design]: ./class-1.md
 [Creating Wire Frames]: ./class-2.md
