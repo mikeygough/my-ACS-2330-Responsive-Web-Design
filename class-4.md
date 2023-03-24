@@ -136,3 +136,38 @@ On a wide screen the nav bar links should be arranged in a horizontal row. On th
 
 Continue the challenges from class 2. 
 
+**Stretch Challenge** use BEM for class names. 
+
+BEM stands for Block, Element, Modifier, and it is a popular front-end development methodology for creating reusable and maintainable code. BEM is based on the idea of breaking down user interfaces into small, modular components called blocks. Each block has its own name and encapsulated functionality, and can contain one or more elements, which are the individual parts of the block. Modifiers are used to change the appearance or behavior of blocks and elements, allowing for greater flexibility and customization. BEM is especially useful for larger projects where the codebase can quickly become unmanageable, and helps to promote consistency and clarity in code structure.
+
+**Block**: The block is the main component of BEM, representing a self-contained piece of functionality. Blocks are usually named according to their purpose or meaning. For example, a navigation bar block might be named `nav`:
+
+```HTML
+<div class="nav">
+  ...
+</div>
+```
+
+In a React project the Component name might be the name of a block. 
+
+**Element**: An element is a part of a block, representing a smaller component within the larger whole. Elements are named with a double underscore (`__`) followed by the name of the element. For example, a button element within a navigation block might be named `nav__button`:
+
+```HTML
+<div class="nav">
+  <button class="nav__button">Home</button>
+  ...
+</div>
+```
+
+**Modifier**: Modifiers are used to modify the appearance or behavior of a block or element. Modifiers are named with a double hyphen (`--`) followed by the name of the modifier. For example, a modifier that changes the color of a button might be named `nav__button--red`:
+
+```HTML
+<div class="nav">
+  <button class="nav__button nav__button--red">Home</button>
+  ...
+</div>
+```
+
+Using BEM in this way helps to keep the code modular and maintainable, as each component is self-contained and can be reused across the site without fear of causing conflicts or breaking styles.
+
+Read more about BEM: https://getbem.com
