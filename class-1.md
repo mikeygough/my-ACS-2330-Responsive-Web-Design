@@ -73,4 +73,5 @@ You can do your work on paper, or in an application like Figma, Adobe XD, or Ske
 | Elements | Pages are missing elements or elements can't be identified | Each page has all elements | All elements on all pages are clearly idenitifable |
 | Desktop and Mobile | Wire frames do not include a desktop or mobile | Includes both desktop and mobile | Desktop and mobile designs are clearly identifiable and make sense |
 | Quality | Drawings are poor quality, sloppy, or hard to read, or contain extraneous details | drawings are clear and concise | well presented and the project is clearly identifiable | 
+| User stories | Has less than three user stories, or the user stories do not show clear who, what, and why. | User stories are well written | User stories provide actionable direction for software development team |
 
