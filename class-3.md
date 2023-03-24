@@ -399,20 +399,18 @@ img {
 
 In this example, the max-width property ensures that the image does not exceed the width of its container, and the height: auto property maintains the aspect ratio of the image. The object-fit: cover property ensures that the image is resized and cropped to fill the available space while preserving its aspect ratio.
 
+
+
+
 ## Assess your work
-
-- Your site creates your wire frame design on both desktop and mobile
-- Your site reads and functions well on desktop
-- Your site reads and functions well on mobile
-- You have used media queries to handle the changes in style from desktop to mobile 
-- You understand that application of @media in your stylesheets. 
-- You have written media queries to apply to all of the pages of the site: Home, Details, About
-- Your media queries are adjusting all of the elements of the site: Title, Navbar, Random Spaces button, Spaces list, etc. 
-- You tried the stretch challenges! Responsive Typography, Responsive Images. 
+ 
 
 
-
-
+| Category | Does not meet | Meets expectations | Exceeds expectations |
+|:--------:|:-------------:|:------------------:|:--------------------:|
+| Matches the wire frames | Does not match the frames you submitted | Matches the wire frames | Your attention to detail extends to code elements like class names |
+| Media Queries | Yoiu haven't used media queries, or your media queries are not working or only partially functional | Your modia queries are applying styles based on the break points | You site is responding to changes in screen size with elegance and grace! |
+| Stretch Challenges | You didn't try the stretch challenges | You tried the stretch challenges | You successfully implemented the stretch challenges |
 
 
 
