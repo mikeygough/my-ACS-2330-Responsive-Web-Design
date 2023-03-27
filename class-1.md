@@ -25,7 +25,6 @@ Responsive design is a design approach that aims to create websites that can ada
 
 Overall, the principles of responsive design aim to create a website that provides a great user experience regardless of the user's device. By using flexible layouts, fluid images, media queries, and responsive units, designers can create websites that are optimized for different screen sizes and devices.
 
-
 ## Wire Framing
 
 Before writing the code to build your websites and make them responsive it is a good idea to have a visual idea of what you are going build!
@@ -33,6 +32,8 @@ Before writing the code to build your websites and make them responsive it is a 
 The subject for this assignment will be the React Fundamentals tutorial. 
 
 Your goal is to draw two wire frames one for the desktop version and one for a mobile version. 
+
+Follow this guide on wire framing: https://careerfoundry.com/en/blog/ux-design/how-to-create-your-first-wireframe/
 
 Wire framing a web site involves creating a visual representation of the website's layout and structure. This representation is called a wireframe, and it's essential to creating a functional and user-friendly website. Here are some steps to help you wireframe a website:
 

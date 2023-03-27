@@ -27,15 +27,15 @@ Students by the end of the course will be able to ...
 |  3    | Tue, Apr  4 | [Media Queries] |
 |  4    | Thr, Apr  6 | [Introduction to Flexbox and responsive units] |
 |       | Week 3 - Flex Box and Grid |                          |
-|  5    | Tue, Apr 11 | [CSS Grid] - [Responsive Grid Challenge] |
-|  6    | Thr, Apr 13 |  |
+|  5    | Tue, Apr 11 | [CSS Grid] |
+|  6    | Thr, Apr 13 | [Responsive Grid Challenge] |
 |       | Week 4 - Accessibility |                              |
 |  7    | Tue, Apr 18 | [Accessibility and Inclusive Design]    |
-|  8    | Thr, Apr 20 |  |
+|  8    | Thr, Apr 20 | [] |
 |       | Week 5 - Tailwind Responsive |                        |
 |  9    | Tue, Apr 25 | [Tailwind responsive] |
 | 10    | Thr, Apr 25 | [Project 2] |
-|       | Week 6 - ??? |                                        |
+|       | Week 6 - Responsive UI |                              |
 | 11    | Tue, Feb 22 | [] |
 | 12    | Thr, Feb 27 | [] |
 |       | Week 7 - Final Assessment |                           |
@@ -46,12 +46,17 @@ Students by the end of the course will be able to ...
 
 [Introduction to Responsive Web Design]: ./class-1.md
 [Creating Wire Frames]: ./class-2.md
+
 [Media Queries]: ./class-3.md
 [Introduction to Flexbox and responsive units]: ./class-4.md
+
 [CSS Grid]: ./class-5.md
 [Responsive Grid Challenge]: https://github.com/Tech-at-DU/responsive-web-design-challenge
+
 [Accessibility and Inclusive Design]: ./class-6.md
-[Tailwind responsive]: ./class-7.md
+[Accessibility part 2]: ./class-7.md
+
+[Tailwind responsive]: ./class-8.md
 [Project 2]: ./class-8.md
 
 ## Assignment Schedule

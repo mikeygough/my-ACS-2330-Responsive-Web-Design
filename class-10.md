@@ -1,8 +1,8 @@
-# Class 9: Performance and Optimization
+# Class 8: Responsive Typography
 
 Duration: 2 hours and 45 minutes
 
-Objective: Students will learn techniques for optimizing website performance and improving user experience through faster load times and smoother interactions.
+Objective: Students will learn how to use responsive typography techniques to create more legible and visually appealing designs on different devices and screen sizes.
 
 ## Class Structure:
 
@@ -17,26 +17,30 @@ Wrap-up and Homework Assignment (15 minutes)
 
 ## Lecture:
 
-- Introduction to website performance and why it matters for user experience.
-- Techniques for optimizing website performance, including minimizing HTTP requests, optimizing images, and lazy loading.
-- How to use tools like Lighthouse and Google PageSpeed Insights to measure and improve website performance.
+- Introduction to responsive typography and its importance in web design.
+- Techniques for implementing responsive typography, including fluid typography and modular scale.
+- How to use CSS units like ems, rems, and viewport units to make text responsive.
+- Accessibility considerations for typography, including font size and contrast ratio.
 
 ## Group Activity:
 
-- In groups of 3-4, students will analyze a slow-loading website and identify the causes of the slow performance.
+- In groups of 3-4, students will review a website and identify opportunities to improve the typography for better legibility and visual appeal.
 - Students will create a list of recommendations and share them with the class.
 
 ## Lab Activity:
 
-- Using a slow-loading webpage as a starting point, students will implement techniques learned in class to improve the webpage's performance.
-- Students will experiment with different techniques like image optimization and lazy loading to see the impact on webpage performance.
+- Using Tailwind CSS, students will implement responsive typography techniques on a webpage.
+- Students will experiment with different CSS units and modular scales to create a visually appealing and readable design.
 
 ## Homework Assignment:
 
-- Improve the performance of a slow-loading webpage by implementing at least three optimization techniques learned in class.
-- Students should use tools like Lighthouse or Google PageSpeed Insights to measure the improvements in performance.
+- Create a responsive webpage that showcases effective use of typography using Tailwind CSS and responsive typography techniques learned in class.
+- The webpage should include at least 3 different sections with different typography styles and sizes.
+- Students should pay special attention to accessibility considerations for typography, including font size and contrast ratio.
 
 ## Conclusion:
 
 - Recap of the key concepts covered in class.
-- Encourage students to continue exploring techniques for website optimization and to consider the impact of website performance on user experience.
+- Encourage students to continue exploring responsive typography techniques and to consider accessibility when designing typography for the web.
+
+

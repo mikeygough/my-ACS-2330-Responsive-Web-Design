@@ -1,27 +1,89 @@
-# Mobile-first Design and Progressive Enhancement
+# Introduction to Media Queries with Tailwind CSS
 
-Your goal for the last half of the class is to create a fully responsive website and accessible website. This project can start from an existing project, for example an intensive project, or be built from scratch. It should meet the requirements: 
+In the previous classes you used vanilla CSS to create a responsive website. In this lesson you will use Tailwind to create a responsive website. 
 
-- Mobile first design - You will plan this project using a mobile first methodology. 
-- Must be responsive - Your site should scale and present itself well on mobile, tablets, and desktop. Stretch goal: take into account for tablet portrait, and extra wide desktops. 
+## Lecture and Demonstration:
+
+For this assignment you can use either a site you have previously created, which you will update to make it responsive, or you can choose an existing site that you will recreate as a responsive site. 
+
+In both cases you will use Tailwind CSS. 
+
+## What is Tailwind
+
+Tailwind is a very popular CSS framework. Read about it here: https://tailwindcss.com
+
+## Setup Tailwind
+
+To use Tailwind you need to install and setup it's packages. How you do this depends on the type of project you are working with. 
+
+**HTML/CSS/JS** 
+
+Initilize a new npm project with:
+
+```
+npm init -y
+```
+
+Then follow the guide here: https://tailwindcss.com/docs/installation
+
+**React**
+
+Follow the instructions here: https://tailwindcss.com/docs/guides/create-react-app
+
+## Intro to Tailwind
+
+Tailwid works via utility classes that you apply to elements in your work. What does that mean? Imagine you have: 
+
+```HTML
+<p class="text-3xl font-bold underline">Hello World</p>
+```
+
+The classes added above would make the text appear as 3xl, bold, and underlined. 
+
+What's `text-3xl`? Take a look at here: https://tailwindcss.com/docs/font-size#setting-the-font-size 
+
+`text-3xl` makes the text `1.953rem`
+
+`font-bold` and `underline` I'll assume are self explanatory. 
+
+These classes all provide utility. You will be combining these utility classes together to create the styles you envision. 
+
+This is different from defining a single class that has all of the features. Something like:
+
+```HTML
+<p class="important-text">Hello World</p>
+<style>
+	.important-text {
+		font-size: 2rem;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+</style>
+```
+
+## Tailwind classes 
+
+Tailwind has a lot of classes. Too many to describe. 
+
+1. Layout - Classes that help with structuring and positioning elements, such as container, grid, flex, float, clear, and display classes.
+2. Typography - Classes that help with styling text and fonts, such as font, text, leading, tracking, and whitespace classes.
+3. Backgrounds - Classes that help with setting background colors and images, such as bg, bg-opacity, bg-gradient-to, and bg-blur classes.
+4. Borders - Classes that help with styling borders, such as border, border-opacity, border-solid, border-dashed, and border-double classes.
+5. Tables - Classes that help with styling tables, such as table, table-auto, table-fixed, and table-caption classes.
+6. Forms - Classes that help with styling form elements, such as form, input, select, checkbox, radio, label, and placeholder classes.
+7. Effects - Classes that help with adding effects, such as shadow, opacity, transition, transform, and scale classes.
+8. Interactivity - Classes that help with adding interactivity, such as hover, focus, active, and group-hover classes.
+9. SVG - Classes that help with styling SVG elements, such as fill-current and stroke-current classes.
+10. Accessibility - Classes that help with making content more accessible, such as sr-only, not-sr-only, focus-within, and focus-visible classes.
+
+Note that this list is not exhaustive and there may be additional categories or classes within each category.
+
+When using TailwindCSS when you're not sure what the class name is search the TailwindCSS site, the documentation is very good. 
+
+https://tailwindcss.com
 
 
 
-## Mobile design considerations
-
-On mobile things stack vertically and there is less available space. 
-
-We view our phones most often in portrait and view port is taller than it is wide. We read horizontally and most of the information on the page is in text form. When you view a page on the phone all of the content is stacked vertically and you are scrolling vertically. 
-
-Most often on mobile content will maximize the width taking up as much horizontal space as possible, without overflowing, while stacking vertically with excess overflowing. In this way we read short lines and scroll for more content, with images showing as much detail as possible. 
-
-Pixels on mobile are generally smaller, or you could think about this as pixel density is higher, there are more pixles in a smaller area. This means that while the screens are crisp and look great everything on mobile is smaller. 
-
-The input experience on mobile devices is unique. All touch based. If you think about your finger as the cursor notice that it often covers thing that you are interacting with. There is no hover effect on mobile. The cursor on the desktop is 16 by 16 pixels, the tip of your finger takes up rough a 40 pixel circle. On mobile all interaction happens on a smaller screen with a much larger and less accurate pointing device! 
-
-## Desktop design considerations
-
-On the desktop screens are larger. While we stack things vertically there is added space available to display things side by side. 
 
 
 
@@ -30,60 +92,37 @@ On the desktop screens are larger. While we stack things vertically there is add
 
 
 
-## Lecture:
 
-1. Mobile-first Design (15 minutes):
-	- Definition and benefits of mobile-first design
-	- Differences between mobile and desktop devices
-	- Best practices for mobile-first design
-2. Progressive Enhancement (15 minutes):
-	- Definition and benefits of progressive enhancement
-	- How progressive enhancement works
-	- Best practices for implementing progressive enhancement
 
-### Group Activity:
 
-1. Mobile Device Analysis (20 minutes):
-	- Divide students into small groups
-	- Each group will analyze a mobile device and identify its unique characteristics and limitations
-	- Groups will then share their findings with the class
 
-### Lab Activity:
 
-1. Mobile-first Design Challenge (1 hour):
-	- Students will create a new website design or modify an existing one with a mobile-first approach
-	- They will use CSS media queries to add styles for larger screens
-	- Students will use progressive enhancement techniques to add additional features for devices that support them
 
-### Presentations and Feedback:
 
-1. Design Review (20 minutes):
-	- Each student will present their mobile-first design and explain their progressive enhancement approach
-	- Feedback and critiques will be provided by the instructor and peers
+The instructor will give a brief lecture on media queries and demonstrate how to use them with Tailwind CSS to create responsive layouts. They will cover topics such as:
 
-## Lecture:
+What are media queries and why are they important for responsive design?
 
-### Mobile-first vs Desktop-first Design (10 minutes):
+How do media queries work and how do you write them in CSS?
 
-- Differences between mobile-first and desktop-first design
-- Advantages and disadvantages of each approach
+Using Tailwind CSS to simplify and speed up responsive design
+Best practices for using media queries with Tailwind CSS
+Challenge 1: Basic Responsive Layout
 
-## Lab Activity:
+Students will be given a design brief and a basic layout to work with. Their challenge is to create a responsive layout that adapts to different screen sizes and devices using Tailwind CSS. The stretch goal is to add custom styles and design elements to make the layout more visually appealing.
 
-### Desktop-first to Mobile-first Conversion (20 minutes):
+## Lab Activity 1: Advanced Responsive Layout
 
-- Students will take an existing desktop-first design and modify it for a mobile-first approach
-- They will use CSS media queries to add styles for larger screens
-- Students will use progressive enhancement techniques to add additional features for devices that support them
+Using Tailwind CSS, students will create a more complex and customized responsive layout. They will work individually or in pairs to experiment with different design techniques and layout options, and the stretch goal is to incorporate animation and interactivity into their design.
+
+## Challenge 2: Responsive Design Analysis
+
+Students will analyze the responsive design of a website of their choice, identifying the breakpoints and media queries used to adapt the layout to different screen sizes and devices. Their challenge is to present their findings and lead a discussion on the strengths and weaknesses of the design, as well as possible improvements or modifications that could be made using Tailwind CSS.
+
+## Lab Activity 2: Customizing Tailwind CSS
+
+In this lab activity, students will customize the Tailwind CSS framework to match their own design preferences and branding. They will experiment with different color schemes, typography, and other style options, and the stretch goal is to create a custom Tailwind CSS theme that they can use in future projects.
 
 ## Wrap-up and Homework Assignment:
 
-### Summary and Key Takeaways (10 minutes):
-
-- Review of key concepts and techniques covered in the class
-- Tips for applying mobile-first design and progressive enhancement in real-world projects
-
-## Homework Assignment (5 minutes):
-
-- Students will create a new website design or modify an existing one with a mobile-first approach and progressive enhancement
-- They should experiment with different techniques and tools to enhance the user experience on different devices.
+In the wrap-up session, students will share their experiences and insights from the lab activities and challenges. The homework assignment will be to refine their individual designs and submit them for feedback and critique from the instructor, as well as to experiment with using media queries and Tailwind CSS in their own projects outside of class.
