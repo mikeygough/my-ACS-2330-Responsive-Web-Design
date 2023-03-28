@@ -1,6 +1,11 @@
 # Class 1: Introduction to Responsive Web Design
 
-# Part 1: Introduction
+## Warmup 
+
+- What did you do for spring break? 
+- How would you expand the SFPOPOS site? What new features would add? 
+
+## Part 1: Introduction
 
 Responsive web design is an approach to web design that aims to create websites that can adapt to different screen sizes and devices. The concept was introduced by Ethan Marcotte in 2010, who proposed designing websites to be flexible and adaptable to different devices, rather than creating separate mobile and desktop versions of a site. Since then, responsive web design has become more popular as mobile devices have become prevalent, and most modern websites are built using responsive web design techniques. With the increasing popularity of mobile devices and the introduction of new technologies, responsive web design is likely to continue to evolve and adapt to new devices and technologies in the future.
 
