@@ -102,6 +102,11 @@ Wire frame images:
 - Wire frames include all elements from the outline
 - Includes all elements in both desktop and mobile 
 - All elements are clealy labeled 
+Stretch goal:
+- Identify areas where you can use the repsonsive design ideas in your wire frames. This might things like: 
+  - fluid layout
+  - flexible images 
+  - scaling typography
 
 | Category | Does not meet expectations | Meets Expectations | Exceeds expectations |
 |:--------:|:--------------------------:|:------------------:|:--------------------:|
