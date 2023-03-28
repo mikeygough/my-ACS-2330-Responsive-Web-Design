@@ -10,6 +10,15 @@ Responsive web design is an approach to web design that aims to create websites 
 
 Your job is to analyze these websites and identify any responsive design techniques that have been used.
 
+- https://www.dropbox.com
+- https://dribbble.com/shots/popular/animation
+- https://github.com
+- https://www.shopify.com/ca
+- https://www.magicleap.com/en-us/
+- https://www.smashingmagazine.com
+- https://slack.com
+- https://www.wired.com
+
 To do this you will need to view the site on a desktop computer and a on a mobile device. 
 
 Your group will present your findings to the class and discuss the strengths and weaknesses of the website's responsive design.
@@ -62,11 +71,37 @@ Tips and guidelines to help you draw a wireframe:
 
 Wire frame the React Fundamentals Tutorial (the SF Public Open Spaces Web site.) You will draw wire frames for the desktop version and a mobile version. 
 
-The desktop version wireframes can describe the tutorial project or describe changes that you want to make to that version, it's up to you. 
+The your wireframes can describe the tutorial project or describe changes that you want to make, it's up to you. Your wire frames don't have to look like the tutorial. 
 
 The mobile version of the website doesn't exist, yet. What this looks like is up to you. **Keep in mind that the mobile site should include all of the elements from the desktop site.** You can rearrange these elements in any way that makes the most sense. Think about it from a users perspective, what would make the most sense and work best when browsing on a phone? 
 
 You can do your work on paper, or in an application like Figma, Adobe XD, or Sketch. You can also draw your wire frames on paper. If you choose to use paper, you must draw draw neatly and not skimp on dectails! 
+
+Step 1. Make an outline. Before drawing anything you need to create an outline that lists all of the content on the site. An outline is a list with a hierarchy. Show the content as a hierarchy. Your outline should express which which section owns which content elements on which page. Something like. 
+
+```
+- SFPOPOS
+  - Home
+    - Header
+      - Page Title: SFPOPOS
+      - Sub title: San Francisco Privately Owned Public Open Spaces
+    - Nav
+      - NavLink: Home
+      - NavLink: About
+    ...
+```
+
+Your wireframes will include the following: 
+An outline: 
+- Your outline should include everything
+- Your outline should describe everything clearly
+- Your outline should express the hierarchy 
+Wire frame images: 
+- Wire frames include all pages 
+- Wire frames include a mobile and desktop image for each page
+- Wire frames include all elements from the outline
+- Includes all elements in both desktop and mobile 
+- All elements are clealy labeled 
 
 | Category | Does not meet expectations | Meets Expectations | Exceeds expectations |
 |:--------:|:--------------------------:|:------------------:|:--------------------:|
