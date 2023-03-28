@@ -1,8 +1,6 @@
 # Class 1: Introduction to Responsive Web Design
 
-# Part 1: Introduction (10 minutes)
-
-Introduce the concept of responsive web design and its importance in modern web development.
+# Part 1: Introduction
 
 Responsive web design is an approach to web design that aims to create websites that can adapt to different screen sizes and devices. The concept was introduced by Ethan Marcotte in 2010, who proposed designing websites to be flexible and adaptable to different devices, rather than creating separate mobile and desktop versions of a site. Since then, responsive web design has become more popular as mobile devices have become prevalent, and most modern websites are built using responsive web design techniques. With the increasing popularity of mobile devices and the introduction of new technologies, responsive web design is likely to continue to evolve and adapt to new devices and technologies in the future.
 
@@ -19,7 +17,7 @@ Your job is to analyze these websites and identify any responsive design techniq
 - https://slack.com
 - https://www.wired.com
 
-To do this you will need to view the site on a desktop computer and a on a mobile device. 
+**To do this you will need to view the site on a desktop computer and a on a mobile device.** 
 
 Your group will present your findings to the class and discuss the strengths and weaknesses of the website's responsive design.
 
@@ -69,15 +67,15 @@ Tips and guidelines to help you draw a wireframe:
 
 ## Homework challenge
 
-Wire frame the React Fundamentals Tutorial (the SF Public Open Spaces Web site.) You will draw wire frames for the desktop version and a mobile version. 
+You are going to create wireframes for the SFPOPOS site. Before drawing any boxes you need to create an outline and some user stories. 
 
-The your wireframes can describe the tutorial project or describe changes that you want to make, it's up to you. Your wire frames don't have to look like the tutorial. 
+**Why create user stories?** If you don't ask and answer questions about how the site will be used the design will be flawed. 
 
-The mobile version of the website doesn't exist, yet. What this looks like is up to you. **Keep in mind that the mobile site should include all of the elements from the desktop site.** You can rearrange these elements in any way that makes the most sense. Think about it from a users perspective, what would make the most sense and work best when browsing on a phone? 
+**Why create an outline?** Without a catalog of content its very likely you will leave something out. 
 
-You can do your work on paper, or in an application like Figma, Adobe XD, or Sketch. You can also draw your wire frames on paper. If you choose to use paper, you must draw draw neatly and not skimp on dectails! 
+Step 1. Write three user stories for the the site. 
 
-Step 1. Make an outline. Before drawing anything you need to create an outline that lists all of the content on the site. An outline is a list with a hierarchy. Show the content as a hierarchy. Your outline should express which which section owns which content elements on which page. Something like. 
+Step 2. Make an outline. Before drawing anything you need to create an outline that lists all of the content on the site. An outline is a list with a hierarchy. Show the content as a hierarchy. Your outline should express which which section owns which content elements on which page. Something like. 
 
 ```
 - SFPOPOS
@@ -90,6 +88,14 @@ Step 1. Make an outline. Before drawing anything you need to create an outline t
       - NavLink: About
     ...
 ```
+
+Step 3. Wire frame the React Fundamentals Tutorial (the SF Public Open Spaces Web site.) **You will draw wire frames for the desktop version and a mobile version.**
+
+The your wireframes can describe the tutorial project as it was presented or describe changes that you want to make, it's up to you. Your wire frames don't have to look like the original tutorial. 
+
+The mobile version of the website doesn't exist yet. What this looks like is up to you. **Keep in mind that the mobile site should include all of the elements from the desktop site.** You can rearrange these elements in any way that makes sense. Think about it from a users perspective, what would make the most sense and work best when browsing on a phone? Consult your user stories. 
+
+You can do your work on paper, or in an application like Figma, Adobe XD, or Sketch. You can also draw your wire frames on paper. If you choose to use paper, you must draw draw neatly and not skimp on dectails!
 
 Your wireframes will include the following: 
 An outline: 
@@ -108,11 +114,14 @@ Stretch goal:
   - flexible images 
   - scaling typography
 
+### Assess your work
+
 | Category | Does not meet expectations | Meets Expectations | Exceeds expectations |
 |:--------:|:--------------------------:|:------------------:|:--------------------:|
-| Content  | Missing content or content can't be identified | Has all content | All content is clearly labeled |
+| Content | Missing content or content can't be identified | Has all content | All content is clearly labeled |
 | Elements | Pages are missing elements or elements can't be identified | Each page has all elements | All elements on all pages are clearly idenitifable |
 | Desktop and Mobile | Wire frames do not include a desktop or mobile | Includes both desktop and mobile | Desktop and mobile designs are clearly identifiable and make sense |
 | Quality | Drawings are poor quality, sloppy, or hard to read, or contain extraneous details | drawings are clear and concise | well presented and the project is clearly identifiable | 
 | User stories | Has less than three user stories, or the user stories do not show clear who, what, and why. | User stories are well written | User stories provide actionable direction for software development team |
+| Outline | Outline nonexistent or missing elements | Outline contains everything found in the site, is clearly labeled, and shows hierarchy | This outline includes details describing interaction and functionality |
 
