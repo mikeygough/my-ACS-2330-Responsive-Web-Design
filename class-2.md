@@ -5,7 +5,7 @@ In this session you will be expanding the SFPOPOS site and finishing up your wir
 ## Objectives 
 
 - Describe Importance of wire framing
-- Write targte audience
+- Describe target audience
 - Create a site map
 - Write user stories
 - Use Figma to create wire frames
