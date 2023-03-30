@@ -9,7 +9,7 @@ Media queries use a series of conditions and rules to define the styles that sho
 ## Objectives 
 
 - Describe media queries
-- Use Media Queries 
+- Use Media Queries
 - Define break points 
 - Use break points to create responsive pages
 
@@ -70,15 +70,15 @@ This means that the `@media` block should be placed _after_ your other styles! I
 
 ## The W3C CSSWG says:
 
-Looking to the future the CSS Working Group says this:
+Looking to the future! The CSS Working Group says this:
 
-> **NOTE:** It is expected that all of the media types will also be deprecated in time, as appropriate media features are defined which capture their important differences.
+> **NOTE:** It is expected that all of the _media types_ will also be deprecated in time, as _appropriate media features_ are defined which capture their important differences.
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/@media
 
 **Who is the CSSWG?** The CSSWG (CSS Working Group) is a group of individuals who are involved in the development and maintenance of the Cascading Style Sheets (CSS) language. The group is part of the World Wide Web Consortium (W3C), which is a community of organizations and individuals working to develop web standards.
 
-What does that mean? Above the `@media` query defines the media type as `print`. You can also describe media features. Here's an example: 
+What does that mean? Above, the `@media` query defines the media type as `print`. You can also describe media features. Here's an example: 
 
 ```CSS
 @media screen and (max-width: 480px) {
@@ -89,9 +89,9 @@ What does that mean? Above the `@media` query defines the media type as `print`.
 }
 ```
 
-In this example the media type is screen `max-width` is a feature. The rules in the block only apply when the media type is screen **and** the width is 480px or smaller (maximum width of 480px.) 
+In this example the media type is screen `max-width` is a feature. The rules in the block only apply when the media type is screen **and** the width of the screen is 480px or smaller (maximum width of 480px.) 
 
-This rule applies to smaller screens and doesn't apply to larger screens! 
+This rule applies to smaller screens and doesn't apply to larger screens! **The CSSWG is going to remove media types in the future and we will only use media features!**
 
 Here are some commonly used media features in Media Queries Level 5:
 
@@ -112,21 +112,21 @@ It's important to note that support for these media features may vary across dev
 
 Responsive web design is a design approach that creates websites that look good and function well on all devices and screen sizes. It uses flexible layouts, images, and typography that adapt to the user's screen size and orientation. This ensures that the website content is accessible and easy to read, regardless of the user's device.
 
+In short responsive sites are sites that respond to the device where they are viewed. 
+
 ## How do you make sites responsive? 
 
-Websites are almost always media screen. The big difference is the features. The most common method used today (this might change in teh future) is to use the width of the screen. 
+Websites are almost always media screen. The big difference is the features. The most common method used today is to use the width of the screen. 
 
-Small screens are not as wide as larger screens. They can't display as much information. So, we style them differently. 
-
-Compare your phone, I have an iPhone 11 pro. The screen is 5.8" diagonally, screen resolution is 1125 x 2436 pixels but it is 375 x 812 points. 
+Compare your phone to the your desktop. I have an iPhone 11 pro. The screen is 5.8" diagonally, screen resolution is 1125 x 2436 pixels but it is 375 x 812 points. 
 
 In iOS, the screen size is measured in points rather than pixels. The iPhone 11 Pro has a screen size of 375 points x 812 points, which is equivalent to 1125 x 2436 pixels at a 3x scale factor (which is the device's native scale factor).
 
 Pixels are the smallest unit of measurement on a digital screen, while points are a relative unit of measurement used in digital design. Pixels are fixed in number, while points can vary depending on the device's pixel density. Points are used by designers to ensure consistent sizing across different devices.
 
-The width of the iPhone 11 Pro in CSS pixels would be 375px. This is based on the device's screen size of 375 points, which, at the device's native scale factor of 3x, translates to 1125 physical pixels, and then to 375 CSS pixels when taking into account the device's CSS pixel ratio of 3.
+The width of the iPhone 11 Pro in CSS pixels would be 375px. This is based on the device's screen size of 375 points, which, at the device's native scale factor of 3x, translates to 1125 physical pixels.
 
-I'm writing this on my MacBook Pro which has a screen size of: 2880 × 1800. 
+I'm writing this on my MacBook Pro which has a screen size of: 2880 × 1800. Which is a lot wider than the iPhone 11. The Desktop is wider in CSS pixels and all of the pixels are larger. The two have almost the same number of pixels but the pixels on the phone are smaller. 
 
 Remember that media query you looked at earlier? 
 
@@ -139,9 +139,9 @@ Remember that media query you looked at earlier?
 }
 ```
 
-This applies to the iPhone 11 Pro but doesn't apply to the MacBook Pro! 
+This applies to the iPhone 11 Pro but doesn't apply to the MacBook Pro! The max-width of 480px uses the CSS pixels/points and sees that the iPhone 11 is smaller at 375, so the rules inside this media query apply to that device. 
 
-This is the idea of break points! 
+This is the idea of break points!
 
 ## What's a break point?
 
@@ -151,7 +151,7 @@ Breakpoints are defined using media queries, which specify the maximum or minimu
 
 ## Mobile break points
 
-Break points can be as detailed as you care to make them. For this challenge assume you need only support desktop and mobile devices. 
+Break points can be as detailed as you care to make them. For this challenge assume you need only support desktop and mobile devices.
 
 ```CSS
 @media screen and (max-width: 480px) {
@@ -162,7 +162,7 @@ Break points can be as detailed as you care to make them. For this challenge ass
 }
 ```
 
-You will write all of the styles that apply to mobile devices here. You may be overwriting some styles that exist out side this rule. For that reason be sure to place this rule at the bottom of any CSS file! 
+You will write all of the styles that apply to mobile devices here. You may be overwriting some styles that exist _above_ this rule. **For that reason be sure to place this rule at the bottom of any CSS file!**
 
 Here are common breakpoints used in responsive web design, based on common screen sizes and device types:
 
@@ -247,7 +247,7 @@ Test this in the browser.
 
 Your goal is to realize your wire frames (desktop and mobile) using media queries. 
 
-To do this should add a media query for mobile devices. The existing style should handle the desktop version. This is called desktop first design. You designed for the desktop (first) and now you are adding modifications that apply when displayed on mobile. 
+To do this should add a media query for mobile devices. The existing style should handle the desktop version. **This is called desktop first design.** You designed for the desktop (first) and now you are adding modifications that apply when displayed on mobile. 
 
 The code below applies a style 
 
