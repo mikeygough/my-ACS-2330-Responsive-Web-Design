@@ -58,9 +58,9 @@ Use the answers to the questions above to refine and improve your user stories a
 
 ## Add a new page to the SFPOPOS website 
 
-The SFPOPOS site needs a new page. We have many visitors and we plan to make add a newsletter. We need visitors to sign up for the news letter. Your job is to add a page with a form that will allow visitors to sign up for the newsletter. 
+The SFPOPOS site needs a new page. We have many visitors and want to add a newsletter. We need visitors to sign up for the news letter. Your job is to add a page with a form that will allow visitors to register an account and opt in for the newsletter. 
 
-The foem should display input fields username, email and a check box that asks if you would like to receive the newsletter. 
+The form should display input fields: username, email, and a check box that asks if you would like to receive the newsletter. 
 
 You need to decide where to place this page. You will also decide on the wording of the form, you can also expand the form if you think of any good ideas to add to it.
 
@@ -100,7 +100,7 @@ https://forgeandsmith.com/blog/ux-vs-ui-how-they-work-together-in-web-design/
 
 Read the article above and let it inform your user and wire frames. Make any changes that you think are needed. 
 
-## Figma 
+## Figma
 
 You can use any tool you like to create your wire frames. **Your wireframes must be neat and legible!**  
 
