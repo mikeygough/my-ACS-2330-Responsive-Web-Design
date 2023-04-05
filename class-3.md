@@ -126,7 +126,7 @@ Pixels are the smallest unit of measurement on a digital screen, while points ar
 
 The width of the iPhone 11 Pro in CSS pixels would be 375px. This is based on the device's screen size of 375 points, which, at the device's native scale factor of 3x, translates to 1125 physical pixels.
 
-I'm writing this on my MacBook Pro which has a screen size of: 2880 × 1800. Which is a lot wider than the iPhone 11. The Desktop is wider in CSS pixels and all of the pixels are larger. The two have almost the same number of pixels but the pixels on the phone are smaller. 
+I'm writing this on my MacBook Pro which has a screen size of: 2880 × 1800. Which is a lot wider than the iPhone 11. The Desktop is wider in CSS pixels and all of the pixels are larger. The macbook has twice the number of pixels but the pixels on the phone are smaller. 
 
 Remember that media query you looked at earlier? 
 
