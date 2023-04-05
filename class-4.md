@@ -1,8 +1,12 @@
-# Introduction to Flexbox and responsive units 
+# Flexbox, responsive units, responsive images
 
-This class will review flexbox and continue on to some of it's other properties, and talk about responsive units. 
+This class will review flexbox and continue on to some of it's other properties, and talk about responsive units.
 
-## vh and vw
+## Flexible units
+
+
+
+### vh and vw
 
 These are two units that can help create responsive pages. 
 
@@ -18,6 +22,10 @@ https://css-tricks.com/fun-viewport-units/
 Use this when you need to size something based on the size of window. 
 
 Note! vh and vw differ from % because % is based on the the parent element! Where vh and vw are based size of the view port.
+
+### % 
+
+Use percent to scale an element relative to the size of its parent element. If the parent were 200px and the child was `width: 50%` it would be 100px. 
 
 ## What is Flexbox
 
@@ -44,6 +52,7 @@ Here is an example.
 		flex-direction: column;
 	}
 </style>
+
 <div class="main">
 	<div class="container">
 		<h1>Hello</h1>
@@ -59,7 +68,7 @@ Read up on flex box:
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
-Use those ideas to solve this game: 
+Practice your Flexbox skills with this game: 
 
 https://flexboxfroggy.com
 
@@ -71,7 +80,7 @@ Try the demo here:
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/flex
 
-Flex determines how much of the available space an element takes up, or you could think of it as how the items divide the space between them. 
+Flex determines how much of the available space an element takes up. You could think of it as how items divide the space. 
 
 You may have noticed that when an element is display flex the child elements, the "flex items" some times get squashed to together. The flex property allows those items to decide how much of the space they will use. 
 
@@ -84,6 +93,71 @@ The flex property in CSS is used to control the flexible behavior of a container
 Flex applies to "flex items" that inside of a flex container! 
 
 Try this example: https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+
+### Flex order 
+
+In some cases you might want to change the order of elements in your responsive layout. For example, the details page is arranged in two columns with text on the left and an image on the right.
+
+```HTML
+<div class="POPOSDetails">
+	<div class="POPOSDetails-image"></div>
+	<div class="POPOSDetails-info"></div>
+</div>
+```
+
+Might appear as: 
+
+|:---:|:---:|
+| Image | Text info |
+
+If `div.POPOSDetails` is a flex container `div.POPOSDetails-image` and `div.POPOSDetails-info` are flex items. If `div.POPOSDetails` is flex direction row the two flex items will be arrange in order left to right.
+
+Using `flex-direction: row-reverse` you would get this: 
+
+|:---:|:---:|
+| Text info | Image |
+
+- `flex-direction` - use row-reverse or column-reverse. Use these to reverse the order of all flex items. Read more: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
+
+What about the info on the details page. It looks like this: 
+
+```HTML
+<div class="POPOSDetails-info">
+	<h1 class="POPOSDetails-title"></h1>
+	<p class="POPOSDetails-desc"></p>
+	<p class="POPOSDetails-hours"></p>
+	<div class="POPOSFeatureList"></div>
+	<p class="POPOSDetails-geo"></p>
+</div>
+```
+
+Here there are 5 flex items in the info container. If the container is flex-direction column. 
+
+|:---:|
+| title |
+| Desc |
+| hours |
+| features |
+| geo |
+
+Imagine on mobile you wanted to change the order this to make the features and hours appear at the top to make them more prominent. To do this you could use the `order` property. This sets the index order of flex items. 
+
+```CSS
+.POPOSDetails-title { order: 1 }
+.POPOSDetails-hours { order: 2 }
+.POPOSFeatureList { order: 3 }
+.POPOSDetails-desc { order: 4 }
+.POPOSDetails-geo { order: 5 }
+```
+
+|:---:|
+| title |
+| Desc |
+| hours |
+| features |
+| geo |
+
+- `order` - the order property allows you to set the index order of flex items. Read more: https://developer.mozilla.org/en-US/docs/Web/CSS/order
 
 ## Sticky Footer
 
@@ -171,3 +245,70 @@ In a React project the Component name might be the name of a block.
 Using BEM in this way helps to keep the code modular and maintainable, as each component is self-contained and can be reused across the site without fear of causing conflicts or breaking styles.
 
 Read more about BEM: https://getbem.com
+
+## Responsive images 
+
+There are two ways to look at repsonsive images. 
+
+**Method 1** scale the image to fit the available space. 
+
+Give the image `width: 100%` is should expand to fill it's container. If the container changes size the image will expand or contract to match. 
+
+https://web.dev/learn/design/responsive-images/
+
+**Method 2** provide a higher or lower resolution image depnding on the size of the device. 
+
+Follow the article below. In short you'll use the `srcset` attribute to provide alternative images at different sizes. 
+
+```HTML
+<img
+ src="small-image.png"
+ alt="A description of the image."
+ width="300"
+ height="200"
+ loading="lazy"
+ decoding="async"
+ srcset="small-image.png 300w,
+  medium-image.png 600w,
+  large-image.png 1200w"
+ sizes="(min-width: 66em) 33vw,
+  (min-width: 44em) 50vw,
+  100vw"
+>
+```
+
+https://web.dev/learn/design/responsive-images/#deliver-your-images
+
+**Note!** This last method could also work serverside code. Since we don't have a server for this example we won't use it, but you should know that it is available. 
+
+Any request to the server will include user agent data as part of the HTTP header. This provides the server a lot information about the device making the request, this includes the platform, OS, and browser versions. This could be used to customize CSS, HTML, and image that is served. 
+
+## Hiding things on mobile/desktop
+
+Sometimes you will run into a situation where you need to have two elements one for mobile and one for desktop. This could be a side menu that is used on mobile and a nav bar used on the desktop. Imagine that you can't reuse one for the other. 
+
+```css
+.nav-bar {
+	display: block; /* Displays the nav bar */
+}
+
+.side-menu {
+	display: none; /* hides the side menu */
+}
+
+@media screen and (max-width: 480px) {
+	.nav-bar {
+		display: none; /* hides the nav bar */
+	}
+
+	.side-menu {
+		display: block; /* displays the side menu */
+	}
+}
+```
+
+Here the nav bar is visible when the screen is larger that 480px and the side-menu is hidden. When the screen size is 480px or smaller the opposite is true. 
+
+## Homework
+
+Continue working on your site making the changes to implement your responsive layout. 
