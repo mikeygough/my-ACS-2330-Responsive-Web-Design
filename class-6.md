@@ -146,3 +146,9 @@ Think of at least three ways you can improve the accessibility of your site.
 
 **Challenge** use lighthouse to score your pages. You can do as much work on your site as you like. I will score this assignment on the lowest scoring page. My solution project from the tutorial scored 81%. 
 
+
+
+
+HOMEWORK
+
+find a web site, a site that exists out in the world, something you use every day, try and use that website only using a screen reader. 

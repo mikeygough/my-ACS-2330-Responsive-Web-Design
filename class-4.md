@@ -4,8 +4,6 @@ This class will review flexbox and continue on to some of it's other properties,
 
 ## Flexible units
 
-
-
 ### vh and vw
 
 These are two units that can help create responsive pages. 
@@ -26,6 +24,8 @@ Note! vh and vw differ from % because % is based on the the parent element! Wher
 ### % 
 
 Use percent to scale an element relative to the size of its parent element. If the parent were 200px and the child was `width: 50%` it would be 100px. 
+
+This great for making images that scale to fill an area. This works best when the image has a parent element that defines the space the image needs to fill. 
 
 ## What is Flexbox
 
@@ -72,7 +72,18 @@ Practice your Flexbox skills with this game:
 
 https://flexboxfroggy.com
 
-## Flex
+### Flex items 
+
+The children of a flex container are flex items and are arranged by the container. Flex items have a few properties that determine how they are arranged. 
+
+- **`flex`** - determines the order in the container
+- **`flex-grow`** - determines how much an item will grow _relative to its siblings_
+- **`flex-shrink`** - determines how an item will shrink _relative to it's siblings_
+- **`flex-basis`** - sets the initial size of the flex item
+- **`flex`** - shorthand property for `flex-grow`, `flex-shrink`, and `flex-basis`
+- **`align-self`** - Overrides `align-items` setting for this item
+
+## Flex itme `flex`
 
 Flex, not to be confused with flexbox, is a property that determines how a "flex item" will grow or shrink to fit the space available in its flex container. 
 
@@ -204,6 +215,8 @@ Style `div.App` with flex. Use the flex property to allow it to fill the space.
 
 The footer needs this to allow it to sit correctly. 
 
+## Stretch Challenges 
+
 **Stretch Challenge** use flex on the nav bar. 
 
 On a wide screen the nav bar links should be arranged in a horizontal row. On the a narrow screen the two nav links should be side by side with the Ranom Spaced button below them. 
@@ -211,6 +224,8 @@ On a wide screen the nav bar links should be arranged in a horizontal row. On th
 Continue the challenges from class 2. 
 
 **Stretch Challenge** use BEM for class names. 
+
+https://css-tricks.com/bem-101/
 
 BEM stands for Block, Element, Modifier, and it is a popular front-end development methodology for creating reusable and maintainable code. BEM is based on the idea of breaking down user interfaces into small, modular components called blocks. Each block has its own name and encapsulated functionality, and can contain one or more elements, which are the individual parts of the block. Modifiers are used to change the appearance or behavior of blocks and elements, allowing for greater flexibility and customization. BEM is especially useful for larger projects where the codebase can quickly become unmanageable, and helps to promote consistency and clarity in code structure.
 
