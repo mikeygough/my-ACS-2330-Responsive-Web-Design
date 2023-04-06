@@ -76,7 +76,7 @@ https://flexboxfroggy.com
 
 The children of a flex container are flex items and are arranged by the container. Flex items have a few properties that determine how they are arranged. 
 
-- **`flex`** - determines the order in the container
+- **`order`** - determines the order in the container
 - **`flex-grow`** - determines how much an item will grow _relative to its siblings_
 - **`flex-shrink`** - determines how an item will shrink _relative to it's siblings_
 - **`flex-basis`** - sets the initial size of the flex item
