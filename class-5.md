@@ -43,13 +43,13 @@ Try this game: https://cssgridgarden.com
 
 Here is another one: https://codingfantasy.com/games/css-grid-attack
 
-## In class challenge
+## In class challenge 1
 
 Solve the challenges here: 
 
 https://github.com/Tech-at-DU/Grid-responsive-Challenge
 
-## Challenges and Stretch Goals:
+## In class challenge 2
 
 **Challenge**: Solve the responsive layout challenge here: https://github.com/Tech-at-DU/responsive-web-design-challenge
 
