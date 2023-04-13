@@ -4,9 +4,9 @@ Objective: Students will learn the principles of accessibility and inclusive des
 
 ### What is accessibility?
 
-**Definition and importance of accessibility in web development**
+Accessibility in web development refers to designing and developing websites that can be used by people with disabilities or impairments. This ensures that all users, regardless of their abilities, can access web content and services. 
 
-Accessibility in web development refers to designing and developing websites that can be used by people with disabilities or impairments. This ensures that all users, regardless of their abilities, can access web content and services. Accessibility is crucial because it promotes inclusivity, improves user experience, enhances search engine optimization, expands the reach of a website, and mitigates legal risks. By ensuring accessibility, web developers can create a more inclusive digital world where everyone has equal access to information and services.
+Accessibility is crucial because it promotes inclusivity, improves user experience, enhances search engine optimization, expands the reach of a website, and mitigates legal risks. By ensuring accessibility, web developers can create a more inclusive digital world where everyone has equal access to information and services.
 
 **Laws and regulations related to accessibility (e.g. Americans with Disabilities Act)**
 
@@ -14,18 +14,21 @@ It is important for web developers to be aware of laws and regulations related t
 
 **Common barriers to accessibility (e.g. visual, auditory, motor impairments)** 
 
-Accessibility barriers are obstacles that prevent individuals with disabilities from accessing and using digital content and services. Common barriers to accessibility include visual impairments, such as blindness or low vision, auditory impairments, such as deafness or hard of hearing, and motor impairments, such as difficulty using a mouse or keyboard. Other barriers may include cognitive or neurological impairments, such as dyslexia or autism, or environmental factors, such as poor lighting or loud background noise. These barriers can prevent individuals with disabilities from fully participating in the digital world, including accessing educational resources, conducting online transactions, and engaging in social media. To ensure accessibility for all users, web developers should consider these barriers when designing and developing digital content and services and provide alternative formats or assistive technologies to accommodate different types of disabilities.
+Accessibility barriers are obstacles that prevent individuals with disabilities from accessing and using digital content and services. Common barriers to accessibility include visual impairments, such as blindness or low vision, auditory impairments, such as deafness or hard of hearing, and motor impairments, such as difficulty using a mouse or keyboard. Other barriers may include cognitive or neurological impairments, such as dyslexia, autism, or environmental factors, such as poor lighting or loud background noise. These barriers can prevent individuals with disabilities from fully participating in the digital world, including accessing educational resources, conducting online transactions, and engaging in social media. 
+
+To ensure accessibility for all users, web developers should consider these barriers when designing and developing digital content and services and provide alternative formats or assistive technologies to accommodate different types of disabilities.
 
 ### Inclusive design principles
 
 Suppose a web developer is creating a new e-commerce site. To ensure diversity and inclusivity, the developer could design the site's interface to be easily navigable using assistive technologies, such as screen readers, for users with visual impairments. They could also provide alternative formats for visual content, such as image descriptions, to make the content accessible to users who are blind or have low vision. 
 
-Additionally, the developer could consider the language and cultural background of the site's target audience, using clear and concise language and avoiding cultural stereotypes that could exclude certain groups of people. Finally, the developer could conduct user testing with people from a diverse range of backgrounds and abilities to ensure that the site is usable and accessible to as many people as possible.
+Additionally, the developer could consider the language and cultural background of the site's target audience, using clear and concise language and avoiding cultural stereotypes that could exclude certain groups of people. _Finally, the developer could conduct user testing with people from a diverse range of backgrounds and abilities to ensure that the site is usable and accessible to as many people as possible._
 
+**Challenge:** Considering the information above what changes need to be made to the SFPOPOS site? 
 
-**Challenge:**
 - Considering the paragraphs above, how would you rewrite your user stories?
-- Is there any text, description or labeling chnages that need to be made to the site?  
+- What changes to text content and labeling need to be made to your site?
+- Are there any changes you can make that would make the site more engaging to a wider audience? 
 
 Why?
 
@@ -37,7 +40,7 @@ Prioritizing user needs and preferences in web development involves understandin
 
 **Challenge**
 
-- What questions would ask when conducting user research to improve the SFPOPOS site? 
+- What questions would you ask when conducting user research to improve the SFPOPOS site?
 
 Prioritizing user needs and preferences is important because it leads to a better user experience and higher user engagement. When users can easily find the information or services they need and the website is designed in a way that resonates with them, they are more likely to spend time on the site, return to it in the future, and share it with others. Moreover, user-centered design can lead to a competitive advantage, as users are more likely to choose a website that meets their needs over one that does not. Therefore, prioritizing user needs and preferences is a key consideration for web developers who want to create effective and successful websites.
 
@@ -47,18 +50,20 @@ Providing multiple ways to access information and perform actions is an importan
 
 Multiple ways of access could include providing alternative text descriptions for images, videos or other visual content, so that users with visual impairments can understand what is being displayed. Another example could be offering keyboard shortcuts and alternative input methods, such as voice commands or touch gestures, to accommodate users with mobility impairments who may not be able to use a mouse or standard keyboard.
 
-Providing multiple ways of access is important because it ensures that all users can interact with a website, regardless of their abilities or technological limitations. This promotes inclusivity and reduces the risk of exclusion, which can occur when a website is designed with only one type of user in mind. By providing multiple ways of access, web developers can ensure that users with disabilities, as well as those who may have limited access to technology or slow internet connections, can still engage with a website and its content in a meaningful way. This can lead to increased engagement and satisfaction for all users, regardless of their backgrounds and abilities.
+Providing multiple ways of access is important because it ensures that all users can interact with a website, regardless of their abilities or technological limitations. **This promotes inclusivity and reduces the risk of exclusion, which can occur when a website is designed with only one type of user in mind.** By providing multiple ways of access, web developers can ensure that users with disabilities, as well as those who may have limited access to technology or slow internet connections, can still engage with a website and its content in a meaningful way. This can lead to increased engagement and satisfaction for all users, regardless of their backgrounds and abilities.
+
+**Challenge:** Make a list of the things that limit a users ability to access your site? 
 
 ### Techniques for accessible web development
 
 Consider your the SFPOPOS site and consider the list below. Find the elements on the list that exist and ask yourself if they are adequate. Indentify the things that are missing and consider how you can implement these. 
 
-- **Semantic HTML** - You've used this before! 
-- **Alt text for images** - You've also seen this!
+- **Semantic HTML** (You've used this before!)
+- **Alt text for images** (You've also seen this!)
 - **ARIA attributes**
 - **Proper use of color and contrast**
 - **Keyboard navigation**
-- **Captions and transcripts** for video and audio content
+- **Captions and transcripts** (for video and audio content)
 
 ### Tools for testing accessibility
 
