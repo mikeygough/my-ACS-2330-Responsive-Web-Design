@@ -176,4 +176,4 @@ There are three challenges for this week. These will wrpa up the SFPOPOS accessi
 
 - Update the semnatic markup on the site. Replace existing generic markup with semantic markup where appropriate. 
 - Add ARIA attributes to elements with the goal of improving accessibility and assitive support. These attributes should describe the elements, their function on the page, and provide descriptive text. 
-- Check the color contrast. Use the WebAIM color constrast checker and make sure your site passes the contrast check. 
+- Check the color contrast. Use the WebAIM color constrast checker and make sure your site passes the contrast check.
