@@ -31,7 +31,7 @@ Students by the end of the course will be able to ...
 |  6    | Thr, Apr 13 | [Responsive Grid Challenge] |
 |       | Week 4 - Accessibility |                              |
 |  7    | Tue, Apr 18 | [Accessibility and Inclusive Design]    |
-|  8    | Thr, Apr 20 | [] |
+|  8    | Thr, Apr 20 | [Accessibility part 2] |
 |       | Week 5 - Tailwind Responsive |                        |
 |  9    | Tue, Apr 25 | [Tailwind responsive] [Project 2] Mobile First Dev |
 | 10    | Thr, Apr 25 | - |
