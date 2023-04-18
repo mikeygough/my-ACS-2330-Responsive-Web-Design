@@ -156,6 +156,13 @@ React docs also have an ARIA page, you should read this: https://legacy.reactjs.
 
 https://www.lullabot.com/articles/what-heck-aria-beginners-guide-aria-accessibility
 
+ARIA attributes come in two categories: roles and states. Roles provide semantic meaning to content. States describe the "state" of an element. The first is easy. The second is pretty broad.
+
+- [ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+- [ARIA States](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes)
+
+For now focus on roles. As a stretch goal read the states lists and find opportunity for these in your page. 
+
 ### Color and contrast 
 
 Contrast is the difference in value between two colors. The value of a color is how dark or light a color would appear if you converted it to gray scale. Red for example is is about 50% gray. Blue is often darker and yellow is often lighter. 
