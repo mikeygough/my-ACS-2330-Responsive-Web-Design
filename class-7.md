@@ -175,7 +175,7 @@ https://webaim.org/resources/contrastchecker/
 
 NOTE! For text font size and weight matter. Smaller fonts, and lighter weight fonts are harder to read and require more contrast! Becuase two colors work at one point size doesn't mean they are legible to everyone at every point size. 
 
-**Challenge** Checl the color and contrast on your site. Enter the colors into the [WEBAIM Constrast checker](https://webaim.org/resources/contrastchecker/) and check the score. Adjust the contrast for failing scores. 
+**Challenge** Check the color and contrast on your site. Enter the colors into the [WEBAIM Constrast checker](https://webaim.org/resources/contrastchecker/) and check the score. Adjust the contrast for failing scores. 
 
 ## Challenge
 
