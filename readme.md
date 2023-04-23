@@ -57,7 +57,7 @@ Students by the end of the course will be able to ...
 [Accessibility part 2]: ./class-7.md
 
 [Tailwind responsive]: ./class-8.md
-[Project 2]: ./class-8.md
+[Project 2]: ./project-2.md
 
 ## Assignment Schedule
 
