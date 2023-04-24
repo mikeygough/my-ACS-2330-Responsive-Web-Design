@@ -26,5 +26,5 @@ Your site should accessible.
 
 ## UX Tested
 
-You will implement a user experienc test for your project and apply the results to your finished project. 
+You will implement a user experience test for your project and apply the results to your finished project. 
 

@@ -1,98 +1,236 @@
-# User Experience
+# Introduction to Media Queries with Tailwind CSS
 
+In the previous classes, you used vanilla CSS to create a responsive website. In this lesson, you will use Tailwind to create a responsive website. 
 
+## Lecture and Demonstration:
 
+For this assignment, you can use either a site you have previously created, which you will update to make it responsive, or you can choose an existing site that you will recreate as a responsive site. 
 
+In both cases, you will use Tailwind CSS. 
 
+## What is Tailwind
 
+Tailwind is a very popular CSS framework. Read about it here: https://tailwindcss.com
 
+## Setup Tailwind
 
-# Mobile-first Design and Progressive Enhancement
+To use Tailwind you need to install and set up its packages. How you do this depends on the type of project you are working on. 
 
-Your goal for the last half of the class is to create a fully responsive website and accessible website. This project can start from an existing project, for example an intensive project, or be built from scratch. It should meet the requirements: 
+**HTML/CSS/JS** 
 
-- Mobile first design - You will plan this project using a mobile first methodology. 
-- Must be responsive - Your site should scale and present itself well on mobile, tablets, and desktop. Stretch goal: take into account for tablet portrait, and extra wide desktops. 
+Initialize a new npm project with:
 
+```
+npm init -y
+```
 
+Then follow the guide here: https://tailwindcss.com/docs/installation
 
-## Mobile design considerations
+**React**
 
-On mobile things stack vertically and there is less available space. 
+Follow the instructions here: https://tailwindcss.com/docs/guides/create-react-app
 
-We view our phones most often in portrait and view port is taller than it is wide. We read horizontally and most of the information on the page is in text form. When you view a page on the phone all of the content is stacked vertically and you are scrolling vertically. 
+**Note!** If you started with an existing project you should remove the existing styles because these may interfere with TailwindCSS styles! If you want to keep the existing styles you should recreate them with TailWind classes! 
 
-Most often on mobile content will maximize the width taking up as much horizontal space as possible, without overflowing, while stacking vertically with excess overflowing. In this way we read short lines and scroll for more content, with images showing as much detail as possible. 
+## Intro to Tailwind
 
-Pixels on mobile are generally smaller, or you could think about this as pixel density is higher, there are more pixles in a smaller area. This means that while the screens are crisp and look great everything on mobile is smaller. 
+Tailwind works via utility classes that you apply to elements in your work. What does that mean? Imagine you have: 
 
-The input experience on mobile devices is unique. All touch based. If you think about your finger as the cursor notice that it often covers thing that you are interacting with. There is no hover effect on mobile. The cursor on the desktop is 16 by 16 pixels, the tip of your finger takes up rough a 40 pixel circle. On mobile all interaction happens on a smaller screen with a much larger and less accurate pointing device! 
+```HTML
+<p class="text-3xl font-bold underline">Hello World</p>
+```
 
-## Desktop design considerations
+The classes added above would make the text appear as 3xl, bold, and underlined. 
 
-On the desktop screens are larger. While we stack things vertically there is added space available to display things side by side. 
+What's `text-3xl`? Take a look here: https://tailwindcss.com/docs/font-size#setting-the-font-size 
 
+`text-3xl` makes the text `1.953rem`
 
+`font-bold` and `underline` I'll assume are self-explanatory. 
 
+These classes all provide utility. You will be combining these utility classes to create the styles you envision. 
 
+This is different from defining a single class that has all of the features. Something like:
 
+```HTML
+<p class="important-text">Hello World</p>
+<style>
+	.important-text {
+		font-size: 2rem;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+</style>
+```
 
+## Tailwind classes 
 
+Tailwind has a lot of classes. Too many to describe. 
 
-## Lecture:
+1. Layout - Classes that help with structuring and positioning elements, such as container, grid, flex, float, clear, and display classes.
+2. Typography - Classes that help with styling text and fonts, such as font, text, leading, tracking, and whitespace classes.
+3. Backgrounds - Classes that help with setting background colors and images, such as bg, bg-opacity, bg-gradient-to, and bg-blur classes.
+4. Borders - Classes that help with styling borders, such as border, border-opacity, border-solid, border-dashed, and border-double classes.
+5. Tables - Classes that help with styling tables, such as a table, table-auto, table-fixed, and table-caption classes.
+6. Forms - Classes that help with styling form elements, such as form, input, select, checkbox, radio, label, and placeholder classes.
+7. Effects - Classes that help with adding effects, such as shadow, opacity, transition, transform, and scale classes.
+8. Interactivity - Classes that help with adding interactivity, such as hover, focus, active, and group-hover classes.
+9. SVG - Classes that help with styling SVG elements, such as fill-current and stroke-current classes.
+10. Accessibility - Classes that help with making content more accessible, such as sr-only, not-sr-only, focus-within, and focus-visible classes.
 
-1. Mobile-first Design (15 minutes):
-	- Definition and benefits of mobile-first design
-	- Differences between mobile and desktop devices
-	- Best practices for mobile-first design
-2. Progressive Enhancement (15 minutes):
-	- Definition and benefits of progressive enhancement
-	- How progressive enhancement works
-	- Best practices for implementing progressive enhancement
+Note that this list is not exhaustive and there may be additional categories or classes within each category.
 
-### Group Activity:
+When using TailwindCSS when you're not sure what the class name is search the TailwindCSS site, the documentation is very good. 
 
-1. Mobile Device Analysis (20 minutes):
-	- Divide students into small groups
-	- Each group will analyze a mobile device and identify its unique characteristics and limitations
-	- Groups will then share their findings with the class
+https://tailwindcss.com
 
-### Lab Activity:
+## Tailwind responsive classes 
 
-1. Mobile-first Design Challenge (1 hour):
-	- Students will create a new website design or modify an existing one with a mobile-first approach
-	- They will use CSS media queries to add styles for larger screens
-	- Students will use progressive enhancement techniques to add additional features for devices that support them
+Tailwind provides the following responsive class names that implement media queries with the following breakpoints. 
 
-### Presentations and Feedback:
+| Breakpoint prefix | Minimum width | CSS |
+|:-----------------:|:-------------:|:---:|
+| sm | 640px | @media (min-width: 640px) { ... } |
+| md | 768px | @media (min-width: 768px) { ... } |
+| lg | 1024px | @media (min-width: 1024px) { ... } |
+| xl | 1280px | @media (min-width: 1280px) { ... } |
+| 2xl | 1536px | @media (min-width: 1536px) { ... } |
 
-1. Design Review (20 minutes):
-	- Each student will present their mobile-first design and explain their progressive enhancement approach
-	- Feedback and critiques will be provided by the instructor and peers
+Use the responsive classes like this: 
 
-## Lecture:
+```HTML
+<!-- Width of 16 by default, 32 on medium screens, and 48 on large screens -->
+<img class="w-16 md:w-32 lg:w-48" src="...">
+```
 
-### Mobile-first vs Desktop-first Design (10 minutes):
+The responsive class is applied as a prefix to another class with a colon. The docs say: 
 
-- Differences between mobile-first and desktop-first design
-- Advantages and disadvantages of each approach
+> This works for every utility class in the framework, which means you can change literally anything at a given breakpoint — even things like letter spacing or cursor styles.
 
-## Lab Activity:
+https://tailwindcss.com/docs/responsive-design
 
-### Desktop-first to Mobile-first Conversion (20 minutes):
+## Tailwind containers
 
-- Students will take an existing desktop-first design and modify it for a mobile-first approach
-- They will use CSS media queries to add styles for larger screens
-- Students will use progressive enhancement techniques to add additional features for devices that support them
+The container class sets the max-width of an element to match the min-width of the current breakpoint. This is useful if you’d prefer to design for a fixed set of screen sizes instead of trying to accommodate a fully fluid viewport.
 
-## Wrap-up and Homework Assignment:
+Note that, unlike containers you might have used in other frameworks, Tailwind’s container does not center itself automatically and does not have any built-in horizontal padding.
 
-### Summary and Key Takeaways (10 minutes):
+To center a container, use the mx-auto utility:
 
-- Review of key concepts and techniques covered in the class
-- Tips for applying mobile-first design and progressive enhancement in real-world projects
+```HTML
+<div class="container mx-auto">
+	<!-- ... -->
+</div>
+```
 
-## Homework Assignment (5 minutes):
+It's a good idea to use this for the top-level layout element, for example, headers, footers, and grid containers. 
 
-- Students will create a new website design or modify an existing one with a mobile-first approach and progressive enhancement
-- They should experiment with different techniques and tools to enhance the user experience on different devices.
+https://tailwindcss.com/docs/container
+
+You can use the following "formula" to create a container that extends to the edges of the screen while "corraling" the content to the width of the container element. 
+
+To make this work these elements must not be inside of another container or have a width applied. You will be defining a container with a width here. 
+
+```HTML
+<footer className="Footer text-slate-50 bg-slate-900">
+	<div className='container max-w-screen mx-auto items-center flex justify-between p-4'>
+		<POPOSCount />
+		<span>© {year}</span>
+	</div>
+</footer>
+```
+
+The footer element extends to the width of the window. The `div.container` uses the container class to bring the content in the width of the container. 
+
+The other styles arrange the POPOSCount and Copyright to eh left and right of the container. 
+
+Notice, I set the background color and text colors on the parent element and everything inside the footer inherits these, which is easier than setting the colors on elements individually. 
+
+## TailWind Grid Responsive
+
+Use Tailwind's grid to arrange elements in a grid. 
+
+- grid - declare an element as a grid
+- gap-# - set the gap in Tailwind units
+- grid-cols-# - set the number of cols
+
+Use the responsive prefixes to set change grid classes for each of the breakpoints. For example: 
+
+```HTML
+<div className="POPOSList-grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 container max-w-screen grid gap-4 mx-auto items-center p-4">
+	{spaces}
+</div>
+```
+
+- xl:grid-cols-4 - 4 columns at 1280px 
+- lg:grid-cols-3 - 3 columns at 1024px 
+- md:grid-cols-2 - 2 columns at 768px
+- sm:grid-cols-1 - 1 column at 640px
+
+## Tailwind flexible images
+
+You may need to get images to resize based on the available space. After setting up your grid the images may not fill the "grid cells". Get images to expand with: 
+
+```
+w-full
+```
+
+## NavLink and Tailwind
+
+React Router uses a function in the class of a NavLink to set a class when the link is active or inactive. With Tailwind you will need to have some Tailwind classes that apply to the element all of the time, and some classes that appear when the link is active. To do this use a function for the class that returns a string of class names that apply all of the time. Concatenate that class with the ternary operator to add the classes that should be added when the element is active, and the classes that appear when the element is active. 
+
+```JS
+<NavLink 
+	className={({ isActive }) => 'block p-2 ' + (isActive ? "text-slate-900 font-bold" : "font-thin")}
+	to="/">Location</NavLink>
+```
+
+In the example above, the link should have the style `block p-2` all of the time. Notice the space after `p-2` you must have this to create a space between this and the next class name! 
+
+The ternary that follows must appear in parenthesis! The string returned from this ternary must be calculated first, before concatenating with the previous string! 
+
+If the link is active the classes: `text-slate-900 font-bold` are added, if not active the class: `font-thin` is added. 
+
+- Active -> 'block p-2 text-slate-900 font-bold'
+- Not Active -> 'block p-2 font-thin'
+
+## Tailwind Sticky footer
+
+A sticky footer is a footer that sticks to the bottom of the screen _when the page height is smaller than the content_. Then the page is larger than the content the footer will stay below the content. 
+
+Use this formula with Tailwind to create a sticky footer. 
+
+The HTML structure must have a parent element with two children. The first child will contain the content of your page except for the footer! The second child will be the footer. Something like this: 
+
+```HTML
+<main>
+	<div class="content"></div>
+	<footer></footer>
+</main>
+```
+
+The first div would have your header and content. In the SFPOPOS tutorial it might look like this: 
+
+```HTML
+<main>
+	<div className="content">
+		<Title />
+			<Outlet />
+		</div>
+	<Footer />
+</main>
+```
+
+use the classes `flex flex-col h-screen justify-between`. For example: 
+
+```HTML
+<main class="flex flex-col h-screen justify-between">
+	<div class="content"></div>
+	<footer></footer>
+</main>
+```
+
+## Challenge
+
+Start working on your [final project](./project-2.md). 
+
