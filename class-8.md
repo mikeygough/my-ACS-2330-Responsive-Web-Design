@@ -44,4 +44,7 @@ User experience testing is essential for ensuring that a product or service meet
 6. Analyze results: Analyze the feedback you collected and look for common themes or issues that emerged. Use this information to identify areas for improvement in your prototype or product.
 7. Iterate and improve: Use the feedback to make improvements to your prototype or product, and then repeat the user experience test to see if the changes you made have improved the user experience.
 
+- [UX Research Tutorial for UX Designers](https://www.youtube.com/watch?v=Bsjxq2NXqu4)
+- [Prototype & Test in 10 minutes or less](https://www.youtube.com/watch?v=pijzYKAOluw)
+
 ## 
