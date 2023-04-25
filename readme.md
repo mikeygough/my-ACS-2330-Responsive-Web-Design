@@ -33,8 +33,8 @@ Students by the end of the course will be able to ...
 |  7    | Tue, Apr 18 | [Accessibility and Inclusive Design]    |
 |  8    | Thr, Apr 20 | [Accessibility part 2] |
 |       | Week 5 - Tailwind Responsive |                        |
-|  9    | Tue, Apr 25 | [Tailwind responsive] [Project 2] Mobile First Dev |
-| 10    | Thr, Apr 25 | - |
+|  9    | Tue, Apr 25 | [Mobile First Dev]  [Project 2] |
+| 10    | Thr, Apr 25 | [Tailwind responsive] |
 |       | Week 6 - Responsive UI |                              |
 | 11    | Tue, Feb 22 | [] |
 | 12    | Thr, Feb 27 | [] |
@@ -56,7 +56,8 @@ Students by the end of the course will be able to ...
 [Accessibility and Inclusive Design]: ./class-6.md
 [Accessibility part 2]: ./class-7.md
 
-[Tailwind responsive]: ./class-8.md
+[Mobile First Dev]: ./class-8.md
+[Tailwind responsive]: ./class-9.md
 [Project 2]: ./project-2.md
 
 ## Assignment Schedule
