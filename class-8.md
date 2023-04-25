@@ -36,13 +36,23 @@ Mobile first design is a design strategy that prioritizes the mobile user experi
 
 User experience testing is essential for ensuring that a product or service meets the needs and expectations of its users. By gathering feedback from users, designers and developers can identify issues and areas for improvement that may not have been apparent otherwise. This helps to ensure that the product is user-friendly, efficient, and effective, which can ultimately lead to increased user satisfaction and loyalty. Additionally, user experience testing can help companies to differentiate themselves from their competitors by offering a better, more user-friendly experience. Overall, user experience testing is an important step in the design and development process, and can help to ensure the success of a product or service in the marketplace.
 
-1. Define your goals: Start by defining what you want to achieve from the user experience test. Determine what kind of feedback you are looking for, and what your main objectives are.
-2. Identify your users: Identify your target audience, and recruit users that represent your user base. Make sure that the users you recruit have the relevant experience and knowledge to provide valuable feedback.
-3. Set up the test: Prepare the materials you will need for the test, including the prototype or product to be tested, any instructions or tasks you want users to complete, and any materials for collecting feedback.
-4. Conduct the test: Sit down with your user and provide any necessary instructions. Ask them to perform tasks using your prototype or product and observe their behavior, listen to their feedback, and take notes.
-5. Collect feedback: After the test, collect feedback from the user on their experience. This could include their likes, dislikes, problems they encountered, and any suggestions they have for improvement.
-6. Analyze results: Analyze the feedback you collected and look for common themes or issues that emerged. Use this information to identify areas for improvement in your prototype or product.
-7. Iterate and improve: Use the feedback to make improvements to your prototype or product, and then repeat the user experience test to see if the changes you made have improved the user experience.
+**How do you conduct a user test?** In a nutshell, you will present your project to your test subject who who will navigate the project while speaking out loud describing their experience. 
+
+**If my project isn't finished how can I present it to my test subject?** As the test provider you will show the "screens" of your project in whatever form they are in, as the test subject points to something on the "screen" you can show them the next screen or provide them with a visual feedback describing what would happen if the site had been functional. 
+
+**What does the test subject do during a UX test?** As a test subject your goal is to make make everything you are experiencing available to the test provider. The best way to do this is to think outloud, say anything that comes to mind while testing a site. 
+
+**What does the test provider do during a UX test?** The test provider should start the test by describing the background of the website. They should then provide goal for the test subject to accomplish on the website, without providing instruction on how to accomplish that goal. From here the test provider should not offer any other 
+
+**Do people really do this?** Yes! As a matter of fact is best practice, a job position, and respected and important part of software developement. 
+
+1. **Define your goals**: Start by defining what you want to achieve from the user experience test. Determine what kind of feedback you are looking for, and what your main objectives are.
+2. **Identify your users**: Identify your target audience, and recruit users that represent your user base. Make sure that the users you recruit have the relevant experience and knowledge to provide valuable feedback.
+3. **Set up the test**: Prepare the materials you will need for the test, including the prototype or product to be tested, any instructions or tasks you want users to complete, and any materials for collecting feedback.
+4. **Conduct the test**: Sit down with your user and provide any necessary instructions. Ask them to perform tasks using your prototype or product and observe their behavior, listen to their feedback, and take notes.
+5. **Collect feedback**: After the test, collect feedback from the user on their experience. This could include their likes, dislikes, problems they encountered, and any suggestions they have for improvement.
+6. **Analyze results**: Analyze the feedback you collected and look for common themes or issues that emerged. Use this information to identify areas for improvement in your prototype or product.
+7. **Iterate and improve**: Use the feedback to make improvements to your prototype or product, and then repeat the user experience test to see if the changes you made have improved the user experience.
 
 - [UX Research Tutorial for UX Designers](https://www.youtube.com/watch?v=Bsjxq2NXqu4)
 - [Prototype & Test in 10 minutes or less](https://www.youtube.com/watch?v=pijzYKAOluw)
