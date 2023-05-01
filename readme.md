@@ -36,12 +36,9 @@ Students by the end of the course will be able to ...
 |  9    | Tue, Apr 25 | [Mobile First Dev]  [Project 2] |
 | 10    | Thr, Apr 25 | [Tailwind responsive] |
 |       | Week 6 - Responsive UI |                              |
-| 11    | Tue, Feb 22 | [] |
-| 12    | Thr, Feb 27 | [] |
-|       | Week 7 - Final Assessment |                           |
-| 13    | Tue, May  2 | [] |
+| 13    | Tue, May  2 | Lab |
 | 14    | Thr, May  4 | Final Assessment                        |
-|       | Week 8      |                                         |
+|       | Week 7      |                                         |
 | 15    | Tue, May  9 | Final Presentations                     |
 
 [Introduction to Responsive Web Design]: ./class-1.md
