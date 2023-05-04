@@ -57,6 +57,8 @@ Students by the end of the course will be able to ...
 [Tailwind responsive]: ./class-9.md
 [Project 2]: ./project-2.md
 
+[Lab]: https://www.uxpin.com/studio/blog/user-interface-elements-every-designer-should-know/
+
 ## Assignment Schedule
 
 |:-------:|:------:|
