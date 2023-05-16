@@ -61,6 +61,7 @@ Students by the end of the course will be able to ...
 
 ## Assignment Schedule
 
+| Assignment | - |
 |:-------:|:------:|
 | Wire frame SFPOPOS Site |  |
 | SFPOPOS Responsive |  |
