@@ -179,7 +179,7 @@ NOTE! For text font size and weight matter. Smaller fonts, and lighter weight fo
 
 ## Challenge
 
-There are three challenges for this week. These will wrpa up the SFPOPOS accessibility update. 
+There are three challenges for this week. These will wrap up the SFPOPOS accessibility update. 
 
 - Update the semnatic markup on the site. Replace existing generic markup with semantic markup where appropriate. 
 - Add ARIA attributes to elements with the goal of improving accessibility and assitive support. These attributes should describe the elements, their function on the page, and provide descriptive text. 
