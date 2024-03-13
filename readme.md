@@ -23,21 +23,21 @@ Students by the end of the course will be able to ...
 |  1    | Wed, Mar 20 | [Introduction to Responsive Web Design] |
 |       | Week 1 - Wire Framing |                               |
 |  2    | Mon, Mar 25 | [Creating Wire Frames] |                |
-|  3    | Wed, Mar 27 | [Media Queries] |
-|       | Week 2 - Media Queries | 
-|  4    | Mon, Apr  1 | [Introduction to Flexbox and responsive units] |
-|  5    | Wed, Apr  3 | [CSS Grid] |
+|  3    | Wed, Mar 27 | [Media Queries]                         |
+|       | Week 2 - Media Queries |                              | 
+|  4    | Mon, Apr  1 | Cesar Chavez Day Campus Holiday         |
+|  5    | Wed, Apr  3 | [Introduction to Flexbox and responsive units] |
 |       | Week 3 - Flex Box and Grid |                          |
-|  6    | Mon, Apr  8 | [Responsive Grid Challenge] |
-|  7    | Wed, Apr 10 | [Accessibility and Inclusive Design]    |
+|  6    | Mon, Apr  8 | [CSS Grid]                              |
+|  7    | Wed, Apr 10 | [Responsive Grid Challenge]             |
 |       | Week 4 - Accessibility |                              |
-|  8    | Mon, Apr 15 | [Accessibility part 2] |
-|  9    | Wed, Apr 17 | [Mobile First Dev]  [Project 2] |
+|  8    | Mon, Apr 15 | [Accessibility and Inclusive Design]    |
+|  9    | Wed, Apr 17 | [Accessibility part 2]                  |
 |       | Week 5 - Tailwind Responsive |                        |
-| 10    | Mon, Apr 22 | [Tailwind responsive] |
-| 13    | Wed, Apr 24 | Lab |
+| 10    | Mon, Apr 22 | [Mobile First Dev]  [Project 2]         |
+| 13    | Wed, Apr 24 | [Tailwind responsive]                   |
 |       | Week 6 - Responsive UI |                              |
-| 14    | Mon, Apr 29 | Final Assessment                        |
+| 14    | Mon, Apr 29 | Lab                                     |
 | 14    | Wed, May  1 | Final Assessment                        |
 |       | Week 7      |                                         |
 | 15    | Mon, May  6 | Final Presentations                     |
