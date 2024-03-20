@@ -1,16 +1,13 @@
 # Class 1: Introduction to Responsive Web Design
 
-## Warmup 
-
+## Warmup (10 mins)
 - What did you do for spring break? 
 - How would you expand the SFPOPOS site? What new features would add? 
 
-## Part 1: Introduction
-
+## Part 1: Introduction (10 mins)
 Responsive web design is an approach to web design that aims to create websites that can adapt to different screen sizes and devices. The concept was introduced by Ethan Marcotte in 2010, who proposed designing websites to be flexible and adaptable to different devices, rather than creating separate mobile and desktop versions of a site. Since then, responsive web design has become more popular as mobile devices have become prevalent, and most modern websites are built using responsive web design techniques. With the increasing popularity of mobile devices and the introduction of new technologies, responsive web design is likely to continue to evolve and adapt to new devices and technologies in the future.
 
 ## Part 2: Group Activity (30 minutes)
-
 Your job is to analyze these websites and identify any responsive design techniques that have been used.
 
 - https://www.dropbox.com
@@ -22,12 +19,16 @@ Your job is to analyze these websites and identify any responsive design techniq
 - https://slack.com
 - https://www.wired.com
 
+**How many of these techniques can you find** in the sites above: 
+- https://www.interaction-design.org/literature/article/responsive-design-let-the-device-do-the-work
+- https://web.dev/articles/responsive-web-design-basics
+- https://www.designitic.com/responsive-web-design-techniques-and-strategies/
+
 **To do this you will need to view the site on a desktop computer and a on a mobile device.** 
 
 Your group will present your findings to the class and discuss the strengths and weaknesses of the website's responsive design.
 
 ## Approaches to responsive design
-
 Responsive design is a design approach that aims to create websites that can adapt to different screen sizes and devices. The principles of responsive design involve using flexible layouts, fluid images, and media queries to ensure that the website looks good and functions well on any device.
 
 1. **Flexible Layouts**: A flexible layout means that the design is not fixed to a specific width or height. Instead, the layout can change and adjust to the available space on the device. This is typically achieved by using relative units like percentages instead of absolute units like pixels for widths and heights. Often you will use layout properties like Flex and Grid with special units like fr (fraction.)
@@ -38,7 +39,6 @@ Responsive design is a design approach that aims to create websites that can ada
 Overall, the principles of responsive design aim to create a website that provides a great user experience regardless of the user's device. By using flexible layouts, fluid images, media queries, and responsive units, designers can create websites that are optimized for different screen sizes and devices.
 
 ## Wire Framing
-
 Before writing the code to build your websites and make them responsive it is a good idea to have a visual idea of what you are going build!
 
 The subject for this assignment will be the React Fundamentals tutorial. 
@@ -75,8 +75,12 @@ Tips and guidelines to help you draw a wireframe:
 - https://www.figma.com
 - https://miro.com
 
-## Homework challenge
+## In Class Challenge (60 mins)
+Using one of the tools above start mocking up the SFPOPOS Site. 
 
+
+
+## Homework challenge
 You are going to create wireframes for the SFPOPOS site. Before drawing any boxes you need to create an outline and some user stories. 
 
 **Why create user stories?** If you don't ask and answer questions about how the site will be used the design will be flawed. 
