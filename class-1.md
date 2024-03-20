@@ -74,6 +74,7 @@ Tips and guidelines to help you draw a wireframe:
 - https://balsamiq.com
 - https://www.figma.com
 - https://miro.com
+- https://www.invisionapp.com
 
 ## In Class Challenge (60 mins)
 Using one of the tools above start mocking up the SFPOPOS Site. 
