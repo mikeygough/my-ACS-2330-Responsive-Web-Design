@@ -68,7 +68,12 @@ Tips and guidelines to help you draw a wireframe:
 5. **Use a grid system**: A grid system helps you create a consistent and organized layout. Use a grid system to align the different elements of the page.
 6. **Label your wireframe**: Make sure to label your wireframe and provide a clear explanation of what each element represents. This will make it easier for others to understand your wireframe.
 7. **Focus on functionality**: The wireframe should focus on the functionality of the website rather than the visual design. Don't worry about colors, fonts, or images at this stage.
-8. **Get feedback**: Once you have created your wireframe, get feedback from other team members or users to see if it meets the website's goals and user needs. 
+8. **Get feedback**: Once you have created your wireframe, get feedback from other team members or users to see if it meets the website's goals and user needs.
+
+**Tools**: Use any of these tools to create and share your wire frames. 
+- https://balsamiq.com
+- https://www.figma.com
+- https://miro.com
 
 ## Homework challenge
 
