@@ -358,8 +358,8 @@ Responsive images in web design refer to the practice of optimizing images to be
 
 There are several techniques that can be used to implement responsive images, including:
 
-Using the <img> tag with the srcset attribute: This attribute allows you to provide multiple versions of the same image with different resolutions, and the browser can choose the appropriate one based on the device's screen size and pixel density.
-Using the <picture> tag: This tag allows you to provide multiple versions of an image with different resolutions, sizes, and formats, and the browser can choose the most appropriate one based on the screen size and other factors.
+Using the `<img>` tag with the srcset attribute: This attribute allows you to provide multiple versions of the same image with different resolutions, and the browser can choose the appropriate one based on the device's screen size and pixel density.
+Using the `<picture>` tag: This tag allows you to provide multiple versions of an image with different resolutions, sizes, and formats, and the browser can choose the most appropriate one based on the screen size and other factors.
 Using CSS to resize and crop images: This technique involves using CSS properties such as max-width, max-height, and object-fit to adjust the size and layout of images based on the screen size and aspect ratio.
 Overall, responsive images are important for creating a visually appealing and fast-loading website that provides a good user experience across a variety of devices and screen sizes. By using the appropriate techniques and optimizing images for web delivery, you can ensure that your website looks great and performs well on all devices, from smartphones to large desktop monitors.
 
