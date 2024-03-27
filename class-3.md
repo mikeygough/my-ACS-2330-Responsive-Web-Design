@@ -21,9 +21,9 @@ The syntax starts with "@media" followed by a media query, which specifies the c
 
 ```CSS
 @media (max-width: 600px) {
-	body {
-	  background-color: blue;
-	}
+  body {
+    background-color: blue;
+  }
 }
 ```
 
@@ -44,9 +44,9 @@ We migth fix it like this:
 ```CSS
 /* imagine all of the facny styles here */
 body {
-	background-color: tomato;
-	color: beige;
-	font-size: 17px;
+  background-color: tomato;
+  color: beige;
+  font-size: 17px;
 }
 
 /* After all of that we apply a media query
@@ -56,11 +56,11 @@ NOTE! All of the styles above also apply!
 In this case they are over written! 
 */
 @media print {
-	body {
-		background-color: white;
-		color: black;
-		font-size: 10px;
-	}
+  body {
+    background-color: white;
+    color: black;
+    font-size: 10px;
+  }
 }
 ```
 
@@ -82,10 +82,10 @@ What does that mean? Above, the `@media` query defines the media type as `print`
 
 ```CSS
 @media screen and (max-width: 480px) {
-	/* CSS styles that apply to mobile here! */
+  /* CSS styles that apply to mobile here! */
   body {
-		background-color: fuchsia;
-	}
+    background-color: fuchsia;
+  }
 }
 ```
 
@@ -132,10 +132,10 @@ Remember that media query you looked at earlier?
 
 ```CSS
 @media screen and (max-width: 480px) {
-	/* CSS styles that apply to mobile here! */
+  /* CSS styles that apply to mobile here! */
   body {
-		background-color: fuchsia;
-	}
+    background-color: fuchsia;
+  }
 }
 ```
 
@@ -155,10 +155,10 @@ Break points can be as detailed as you care to make them. For this challenge ass
 
 ```CSS
 @media screen and (max-width: 480px) {
-	/* CSS styles that apply to mobile here! */
+  /* CSS styles that apply to mobile here! */
   body {
-		background-color: fuchsia;
-	}
+    background-color: fuchsia;
+  }
 }
 ```
 
@@ -255,13 +255,13 @@ The code below applies a style
 /* Existing styles up here... */
 
 @media screen and (max-width: 480px) {
-	/* These styles are applied when 
-	the screen size 480 or smaller */
-	.POPOSList-grid {
-		grid-template-columns: 1fr;
-	}
-
-	/* add other styles here... */
+  /* These styles are applied when 
+  the screen size 480 or smaller */
+  .POPOSList-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* add other styles here... */
 }
 ```
 
@@ -294,21 +294,21 @@ Here is an example scenario. Imagine you might have 1 column on phones, two colu
 ```CSS
 /* Default styles */
 .POPOSList-grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	...
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  ...
 }
 
 @media screen and (max-width: 960px) {
-	.POPOSList-grid {
-		grid-template-columns: 1fr 1fr;
-	}
+  .POPOSList-grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 480px) {
-	.POPOSList-grid {
-			grid-template-columns: 1fr;
-		}
+  .POPOSList-grid {
+    grid-template-columns: 1fr;
+  }
 }
 ```
 
@@ -367,10 +367,10 @@ Using the srcset attribute:
 
 ```HTML
 <img src="image.jpg"
-	srcset="image-small.jpg 480w,
-		image-medium.jpg 768w,
-		image-large.jpg 1200w"
-	alt="Responsive image">
+  srcset="image-small.jpg 480w,
+    image-medium.jpg 768w,
+    image-large.jpg 1200w"
+  alt="Responsive image">
 ```
 
 In this example, the srcset attribute is used to provide three different versions of the same image with different resolutions, specified in the w (width) descriptor. The browser can then choose the appropriate image based on the device's screen size and pixel density.
