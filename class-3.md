@@ -22,7 +22,7 @@ The syntax starts with "@media" followed by a media query, which specifies the c
 ```CSS
 @media (max-width: 600px) {
 	body {
-		background-color: blue;
+	  background-color: blue;
 	}
 }
 ```
