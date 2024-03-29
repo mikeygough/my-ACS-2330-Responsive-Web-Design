@@ -153,18 +153,18 @@ Here there are 5 flex items in the info container. If the container is flex-dire
 Imagine on mobile you wanted to change the order this to make the features and hours appear at the top to make them more prominent. To do this you could use the `order` property. This sets the index order of flex items. 
 
 ```CSS
-.POPOSDetails-title { order: 1 }
+.POPOSDetails-title { order: 3 }
 .POPOSDetails-hours { order: 2 }
-.POPOSFeatureList { order: 3 }
+.POPOSFeatureList { order: 1 }
 .POPOSDetails-desc { order: 4 }
 .POPOSDetails-geo { order: 5 }
 ```
 
 ```
+| features |
+| hours |
 | title |
 | Desc |
-| hours |
-| features |
 | geo |
 ```
 
