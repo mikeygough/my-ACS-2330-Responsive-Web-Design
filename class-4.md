@@ -118,13 +118,13 @@ In some cases you might want to change the order of elements in your responsive 
 
 Might appear as: 
 
-| Image | Text info |
+`| Image | Text info |`
 
 If `div.POPOSDetails` is a flex container `div.POPOSDetails-image` and `div.POPOSDetails-info` are flex items. If `div.POPOSDetails` is flex direction row the two flex items will be arrange in order left to right.
 
 Using `flex-direction: row-reverse` you would get this: 
 
-| Text info | Image |
+`| Text info | Image |`
 
 - `flex-direction` - use row-reverse or column-reverse. Use these to reverse the order of all flex items. Read more: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
 
@@ -142,11 +142,13 @@ What about the info on the details page. It looks like this:
 
 Here there are 5 flex items in the info container. If the container is flex-direction column. 
 
+```
 | title |
 | Desc |
 | hours |
 | features |
 | geo |
+```
 
 Imagine on mobile you wanted to change the order this to make the features and hours appear at the top to make them more prominent. To do this you could use the `order` property. This sets the index order of flex items. 
 
@@ -158,12 +160,13 @@ Imagine on mobile you wanted to change the order this to make the features and h
 .POPOSDetails-geo { order: 5 }
 ```
 
-|:---:|
+```
 | title |
 | Desc |
 | hours |
 | features |
 | geo |
+```
 
 - `order` - the order property allows you to set the index order of flex items. Read more: https://developer.mozilla.org/en-US/docs/Web/CSS/order
 
