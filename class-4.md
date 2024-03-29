@@ -47,18 +47,18 @@ Here is an example.
 
 ```HTML
 <style>
-	.main {
-		display: flex;
-		flex-direction: column;
-	}
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
 </style>
 
 <div class="main">
-	<div class="container">
-		<h1>Hello</h1>
-		<p>World</p>
-	</div>
-	<div class="footer"></div>
+  <div class="container">
+    <h1>Hello</h1>
+    <p>World</p>
+  </div>
+  <div class="footer"></div>
 </div>
 ```
 
@@ -111,8 +111,8 @@ In some cases you might want to change the order of elements in your responsive 
 
 ```HTML
 <div class="POPOSDetails">
-	<div class="POPOSDetails-image"></div>
-	<div class="POPOSDetails-info"></div>
+  <div class="POPOSDetails-image"></div>
+  <div class="POPOSDetails-info"></div>
 </div>
 ```
 
@@ -134,11 +134,11 @@ What about the info on the details page. It looks like this:
 
 ```HTML
 <div class="POPOSDetails-info">
-	<h1 class="POPOSDetails-title"></h1>
-	<p class="POPOSDetails-desc"></p>
-	<p class="POPOSDetails-hours"></p>
-	<div class="POPOSFeatureList"></div>
-	<p class="POPOSDetails-geo"></p>
+  <h1 class="POPOSDetails-title"></h1>
+  <p class="POPOSDetails-desc"></p>
+  <p class="POPOSDetails-hours"></p>
+  <div class="POPOSFeatureList"></div>
+  <p class="POPOSDetails-geo"></p>
 </div>
 ```
 
@@ -184,10 +184,10 @@ You will need to rearrange the HTML structure to make this work. You need the tw
 
 ```HTML
 <div className="App">
-	<div className='App-content'>
-		...
-	</div>
-	<Footer />
+  <div className='App-content'>
+    ...
+  </div>
+  <Footer />
 </div>
 ```
 
@@ -277,18 +277,18 @@ Follow the article below. In short you'll use the `srcset` attribute to provide 
 
 ```HTML
 <img
- src="small-image.png"
- alt="A description of the image."
- width="300"
- height="200"
- loading="lazy"
- decoding="async"
- srcset="small-image.png 300w,
-  medium-image.png 600w,
+  src="small-image.png"
+  alt="A description of the image."
+  width="300"
+  height="200"
+  loading="lazy"
+  decoding="async"
+  srcset="small-image.png 300w,
+    medium-image.png 600w,
   large-image.png 1200w"
- sizes="(min-width: 66em) 33vw,
-  (min-width: 44em) 50vw,
-  100vw"
+  sizes="(min-width: 66em) 33vw,
+    (min-width: 44em) 50vw,
+    100vw"
 >
 ```
 
@@ -304,21 +304,21 @@ Sometimes you will run into a situation where you need to have two elements one 
 
 ```css
 .nav-bar {
-	display: block; /* Displays the nav bar */
+  display: block; /* Displays the nav bar */
 }
 
 .side-menu {
-	display: none; /* hides the side menu */
+  display: none; /* hides the side menu */
 }
 
 @media screen and (max-width: 480px) {
-	.nav-bar {
-		display: none; /* hides the nav bar */
-	}
-
-	.side-menu {
-		display: block; /* displays the side menu */
-	}
+  .nav-bar {
+    display: none; /* hides the nav bar */
+  }
+  
+  .side-menu {
+    display: block; /* displays the side menu */
+  }
 }
 ```
 
