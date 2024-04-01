@@ -83,7 +83,7 @@ The children of a flex container are flex items and are arranged by the containe
 - **`flex`** - shorthand property for `flex-grow`, `flex-shrink`, and `flex-basis`
 - **`align-self`** - Overrides `align-items` setting for this item
 
-## Flex itme `flex`
+## Flex item `flex`
 
 Flex, not to be confused with flexbox, is a property that determines how a "flex item" will grow or shrink to fit the space available in its flex container. 
 
