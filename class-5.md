@@ -41,8 +41,6 @@ Responsive Design: One of the key benefits of CSS Grid is its _ability to create
 
 Try this game: https://cssgridgarden.com
 
-Here is another one: https://codingfantasy.com/games/css-grid-attack
-
 ## In class challenge 1
 
 Solve the challenges here: 
