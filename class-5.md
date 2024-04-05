@@ -51,6 +51,6 @@ https://github.com/Tech-at-DU/Grid-responsive-Challenge
 
 **Challenge**: Solve the responsive layout challenge here: https://github.com/Tech-at-DU/responsive-web-design-challenge
 
-You will turn in this in to GradScope separately as it's own assignment! 
+You will turn in this in to GradeScope separately as it's own assignment! 
 
 Wrap up the React Fundamentals responsive site convertion. 
