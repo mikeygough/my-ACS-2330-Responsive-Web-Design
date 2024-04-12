@@ -60,10 +60,10 @@ Consider your the SFPOPOS site and consider the list below. Find the elements on
 
 - **Semantic HTML** (You've used this before!)
 - **Alt text for images** (You've also seen this!)
-- **ARIA attributes**
-- **Proper use of color and contrast**
-- **Keyboard navigation**
-- **Captions and transcripts** (for video and audio content)
+- **ARIA attributes** Read about ARIA here: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+- **Proper use of color and contrast** Check your color and contrast here: https://webaim.org/resources/contrastchecker/
+- **Keyboard navigation** Read up about accessibility and keyboard navigation: https://www.smashingmagazine.com/2022/11/guide-keyboard-accessibility-html-css-part1/
+- **Captions and transcripts** (for video and audio content) 
 
 ### Tools for testing accessibility
 
