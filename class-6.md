@@ -90,6 +90,13 @@ To really get a feel for how people with disabilities use a computer try the scr
 - Safari: https://www.apple.com/voiceover/info/guide/_1121.html
 - Chrome: https://support.google.com/accessibility/answer/7031755?hl=en
 
+## Challenge: What is Accessibility?
+
+Answer these questions on GradeScope: 
+
+- What is Accessibility in web design and why is it important?
+- Why is semantic HTML and ARIA, and how are they related? 
+
 ## Challenge: Accessibility Review!
 
 Review and evaluate the accessibility of a website of your choice. This can be any site you like, a site you use everyday is preferable, buy soap and fuzzy slippers on Amazon, check out cat pictures on reddit, order Airpods Max on the Apple store. 
