@@ -88,6 +88,7 @@ You will also check the color contrast for colors on the site. Do this for any b
 - [WAVE Extension instructions](https://www.google.com/search?q=how+to+use+wave+chrome+extension&rlz=1C5CHFA_enUS815US815&oq=how+to+use+the+wave+chrome+&aqs=chrome.1.69i57j0i22i30l2j0i390i650l2.8628j0j7&sourceid=chrome&ie=UTF-8)
 - [Install Lighthouse chrom extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)
 - https://webaim.org/resources/contrastchecker/
+- Write better alt text for images: https://accessibility.huit.harvard.edu/describe-content-images
 
 ## Screen readers 
 
