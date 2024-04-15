@@ -24,7 +24,11 @@ Suppose a web developer is creating a new e-commerce site. To ensure diversity a
 
 Additionally, the developer could consider the language and cultural background of the site's target audience, using clear and concise language and avoiding cultural stereotypes that could exclude certain groups of people. _Finally, the developer could conduct user testing with people from a diverse range of backgrounds and abilities to ensure that the site is usable and accessible to as many people as possible.
 
-**CHALLENGE** TURN ON ACCESSIBLITY AND FOLLOW THE ACCESSIBILITY TUTORIAL. 
+**Challenge** Turn on Voice over and follow the tutorial.
+
+A large portion of the world is browsing the web with accessibility features. To reach this audience it is important to understand accessibility. 
+
+https://accessiblyapp.com/blog/web-accessibility-statistics/
 
 **Challenge:** Considering the information above what changes need to be made to the SFPOPOS site? 
 
