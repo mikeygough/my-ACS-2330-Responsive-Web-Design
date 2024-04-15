@@ -22,7 +22,9 @@ To ensure accessibility for all users, web developers should consider these barr
 
 Suppose a web developer is creating a new e-commerce site. To ensure diversity and inclusivity, the developer could design the site's interface to be easily navigable using assistive technologies, such as screen readers, for users with visual impairments. They could also provide alternative formats for visual content, such as image descriptions, to make the content accessible to users who are blind or have low vision. 
 
-Additionally, the developer could consider the language and cultural background of the site's target audience, using clear and concise language and avoiding cultural stereotypes that could exclude certain groups of people. _Finally, the developer could conduct user testing with people from a diverse range of backgrounds and abilities to ensure that the site is usable and accessible to as many people as possible._
+Additionally, the developer could consider the language and cultural background of the site's target audience, using clear and concise language and avoiding cultural stereotypes that could exclude certain groups of people. _Finally, the developer could conduct user testing with people from a diverse range of backgrounds and abilities to ensure that the site is usable and accessible to as many people as possible.
+
+**CHALLENGE** TURN ON ACCESSIBLITY AND FOLLOW THE ACCESSIBILITY TUTORIAL. 
 
 **Challenge:** Considering the information above what changes need to be made to the SFPOPOS site? 
 
