@@ -66,4 +66,4 @@ You will implement a user experience test for your project and apply the results
 9. **Review for Consistency**: Ensure consistency in design elements and alignment throughout the wireframes.
 10. **Finalize and Share**: Once approved, finalize the wireframes and share with the development team as a blueprint for implementation.
 
-## Submot your wire content map, users stories, and wireframes to gradescope!
+## Submit your wire content map, users stories, and wireframes to gradescope!
