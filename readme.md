@@ -35,7 +35,7 @@ Students by the end of the course will be able to ...
 |  9    | Wed, Apr 17 | [Accessibility part 2]                  |
 |  -    | Week 5 - Tailwind Responsive |         -              |
 | 10    | Mon, Apr 22 | [Mobile First Dev]  [Project 2]         |
-| 13    | Wed, Apr 24 | [Tailwind responsive]                   |
+| 13    | Wed, Apr 24 | UX Testing [Tailwind responsive]        |
 |  -    | Week 6 - Responsive UI |               -              |
 | 14    | Mon, Apr 29 | Lab                                     |
 | 14    | Wed, May  1 | TBD                                     |
