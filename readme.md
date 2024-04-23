@@ -28,8 +28,8 @@ Students by the end of the course will be able to ...
 |  4    | Mon, Apr  1 | Cesar Chavez Day Campus Holiday         |
 |  5    | Wed, Apr  3 | [Introduction to Flexbox and responsive units] |
 |  -    | Week 3 - Flex Box and Grid |           -              |
-|  6    | Mon, Apr  8 | [CSS Grid]                              |
-|  7    | Wed, Apr 10 | [Responsive Grid Challenge]             |
+|  6    | Mon, Apr  8 | [CSS Grid] [Responsive Grid Challenge 1] |
+|  7    | Wed, Apr 10 | [Responsive Grid Challenge 2]           |
 |  -    | Week 4 - Accessibility |               -              |
 |  8    | Mon, Apr 15 | [Accessibility and Inclusive Design]    |
 |  9    | Wed, Apr 17 | [Accessibility part 2]                  |
@@ -50,7 +50,8 @@ Students by the end of the course will be able to ...
 [Introduction to Flexbox and responsive units]: ./class-4.md
 
 [CSS Grid]: ./class-5.md
-[Responsive Grid Challenge]: https://github.com/Tech-at-DU/responsive-web-design-challenge
+[Responsive Grid Challenge 1]: https://github.com/Tech-at-DU/Grid-responsive-Challenge
+[Responsive Grid Challenge 2]: https://github.com/Tech-at-DU/responsive-web-design-challenge
 
 [Accessibility and Inclusive Design]: ./class-6.md
 [Accessibility part 2]: ./class-7.md
