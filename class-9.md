@@ -119,7 +119,7 @@ To center a container, use the mx-auto utility:
 
 ```HTML
 <div class="container mx-auto">
-	<!-- ... -->
+  <!-- ... -->
 </div>
 ```
 
@@ -140,7 +140,7 @@ To make this work these elements must not be inside of another container or have
 </footer>
 ```
 
-The footer element extends to the width of the window. The `div.container` uses the container class to bring the content in the width of the container. 
+The footer element extends to the width of the window. The `div.container` uses the container class to corral the content in the width of the container. This wouldn't work as expected if `footer` also had the class `container`!
 
 The other styles arrange the POPOSCount and Copyright to eh left and right of the container. 
 
