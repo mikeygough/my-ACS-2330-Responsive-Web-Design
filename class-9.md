@@ -55,11 +55,11 @@ This is different from defining a single class that has all of the features. Som
 ```HTML
 <p class="important-text">Hello World</p>
 <style>
-	.important-text {
-		font-size: 2rem;
-		font-weight: bold;
-		text-decoration: underline;
-	}
+  .important-text {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: underline;
+  }
 </style>
 ```
 
@@ -157,7 +157,7 @@ Use Tailwind's grid to arrange elements in a grid.
 Use the responsive prefixes to set change grid classes for each of the breakpoints. For example: 
 
 ```HTML
-<div className="POPOSList-grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 container max-w-screen grid gap-4 mx-auto items-center p-4">
+<div className="POPOSList grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 container max-w-screen grid gap-4 mx-auto items-center p-4">
 	{spaces}
 </div>
 ```
