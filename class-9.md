@@ -133,10 +133,10 @@ To make this work these elements must not be inside of another container or have
 
 ```HTML
 <footer className="Footer text-slate-50 bg-slate-900">
-	<div className='container max-w-screen mx-auto items-center flex justify-between p-4'>
-		<POPOSCount />
-		<span>© {year}</span>
-	</div>
+  <div className='container max-w-screen mx-auto items-center flex justify-between p-4'>
+    <POPOSCount />
+    <span>© {year}</span>
+  </div>
 </footer>
 ```
 
@@ -158,7 +158,7 @@ Use the responsive prefixes to set change grid classes for each of the breakpoin
 
 ```HTML
 <div className="POPOSList grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 container max-w-screen grid gap-4 mx-auto items-center p-4">
-	{spaces}
+  {spaces}
 </div>
 ```
 
@@ -181,8 +181,8 @@ React Router uses a function in the class of a NavLink to set a class when the l
 
 ```JS
 <NavLink 
-	className={({ isActive }) => 'block p-2 ' + (isActive ? "text-slate-900 font-bold" : "font-thin")}
-	to="/">Location</NavLink>
+  className={({ isActive }) => 'block p-2 ' + (isActive ? "text-slate-900 font-bold" : "font-thin")}
+  to="/">Location</NavLink>
 ```
 
 In the example above, the link should have the style `block p-2` all of the time. Notice the space after `p-2` you must have this to create a space between this and the next class name! 
@@ -204,8 +204,8 @@ The HTML structure must have a parent element with two children. The first child
 
 ```HTML
 <main>
-	<div class="content"></div>
-	<footer></footer>
+  <div class="content"></div>
+  <footer></footer>
 </main>
 ```
 
@@ -213,11 +213,11 @@ The first div would have your header and content. In the SFPOPOS tutorial it mig
 
 ```HTML
 <main>
-	<div className="content">
-		<Title />
-			<Outlet />
-		</div>
-	<Footer />
+  <div className="content">
+    <Title />
+      <Outlet />
+    </div>
+  <Footer />
 </main>
 ```
 
@@ -225,8 +225,8 @@ use the classes `flex flex-col h-screen justify-between`. For example:
 
 ```HTML
 <main class="flex flex-col h-screen justify-between">
-	<div class="content"></div>
-	<footer></footer>
+  <div class="content"></div>
+  <footer></footer>
 </main>
 ```
 
