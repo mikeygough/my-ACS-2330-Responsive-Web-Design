@@ -40,8 +40,8 @@ Students by the end of the course will be able to ...
 | 14    | Mon, Apr 29 | Lab                                     |
 | 14    | Wed, May  1 | TBD                                     |
 |  -    | Week 7      |                          -              |
-| 15    | Mon, May  6 | TBD                                     |
-| 15    | Wed, May  8 | Final Presentations                     |
+| 15    | Mon, May  6 | Final Assessment                        |
+| 16    | Wed, May  8 | Final Presentations                     |
 
 [Introduction to Responsive Web Design]: ./class-1.md
 [Creating Wire Frames]: ./class-2.md
